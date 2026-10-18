@@ -1,0 +1,6278 @@
+{
+ "snapshot": "2026-10-19",
+ "per_month": 12,
+ "window": [
+  "2023-01",
+  "2026-10"
+ ],
+ "real": [
+  {
+   "eco": "npm",
+   "pkg": "three",
+   "version": "0.149.0",
+   "published": "2023-01-26",
+   "month": "2023-01",
+   "id": "r0000"
+  },
+  {
+   "eco": "npm",
+   "pkg": "remix",
+   "version": "1.10.0",
+   "published": "2023-01-09",
+   "month": "2023-01",
+   "id": "r0001"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "setuptools",
+   "version": "66.0.0",
+   "published": "2023-01-16",
+   "month": "2023-01",
+   "id": "r0002"
+  },
+  {
+   "eco": "npm",
+   "pkg": "drizzle-orm",
+   "version": "0.15.0",
+   "published": "2023-01-10",
+   "month": "2023-01",
+   "id": "r0003"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vitest",
+   "version": "0.28.0",
+   "published": "2023-01-23",
+   "month": "2023-01",
+   "id": "r0004"
+  },
+  {
+   "eco": "npm",
+   "pkg": "fastify",
+   "version": "4.11.0",
+   "published": "2023-01-01",
+   "month": "2023-01",
+   "id": "r0005"
+  },
+  {
+   "eco": "npm",
+   "pkg": "mongoose",
+   "version": "6.9.0",
+   "published": "2023-01-25",
+   "month": "2023-01",
+   "id": "r0006"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "22.1.0",
+   "published": "2023-01-25",
+   "month": "2023-01",
+   "id": "r0007"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "7.24.0",
+   "published": "2023-01-09",
+   "month": "2023-01",
+   "id": "r0008"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@playwright/test",
+   "version": "1.30.0",
+   "published": "2023-01-25",
+   "month": "2023-01",
+   "id": "r0009"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@angular/core",
+   "version": "15.1.0",
+   "published": "2023-01-10",
+   "month": "2023-01",
+   "id": "r0010"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@sveltejs/kit",
+   "version": "1.1.0",
+   "published": "2023-01-13",
+   "month": "2023-01",
+   "id": "r0011"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@sveltejs/kit",
+   "version": "1.9.0",
+   "published": "2023-02-28",
+   "month": "2023-02",
+   "id": "r0012"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vitest",
+   "version": "0.29.0",
+   "published": "2023-02-25",
+   "month": "2023-02",
+   "id": "r0013"
+  },
+  {
+   "eco": "npm",
+   "pkg": "rollup",
+   "version": "3.17.0",
+   "published": "2023-02-18",
+   "month": "2023-02",
+   "id": "r0014"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "setuptools",
+   "version": "67.1.0",
+   "published": "2023-02-01",
+   "month": "2023-02",
+   "id": "r0015"
+  },
+  {
+   "eco": "npm",
+   "pkg": "drizzle-orm",
+   "version": "0.18.0",
+   "published": "2023-02-06",
+   "month": "2023-02",
+   "id": "r0016"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@playwright/test",
+   "version": "1.31.0",
+   "published": "2023-02-21",
+   "month": "2023-02",
+   "id": "r0017"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@anthropic-ai/sdk",
+   "version": "0.4.0",
+   "published": "2023-02-08",
+   "month": "2023-02",
+   "id": "r0018"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "7.27.0",
+   "published": "2023-02-08",
+   "month": "2023-02",
+   "id": "r0019"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vite",
+   "version": "4.1.0",
+   "published": "2023-02-02",
+   "month": "2023-02",
+   "id": "r0020"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "streamlit",
+   "version": "1.18.0",
+   "published": "2023-02-09",
+   "month": "2023-02",
+   "id": "r0021"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "llama-index",
+   "version": "0.4.4",
+   "published": "2023-02-16",
+   "month": "2023-02",
+   "id": "r0022"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "3.18.0",
+   "published": "2023-02-07",
+   "month": "2023-02",
+   "id": "r0023"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "huggingface-hub",
+   "version": "0.13.0",
+   "published": "2023-03-08",
+   "month": "2023-03",
+   "id": "r0024"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "3.20.0",
+   "published": "2023-03-04",
+   "month": "2023-03",
+   "id": "r0025"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "datasets",
+   "version": "2.11.0",
+   "published": "2023-03-29",
+   "month": "2023-03",
+   "id": "r0026"
+  },
+  {
+   "eco": "npm",
+   "pkg": "jest",
+   "version": "29.5.0",
+   "published": "2023-03-06",
+   "month": "2023-03",
+   "id": "r0027"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "fastapi",
+   "version": "0.93.0",
+   "published": "2023-03-07",
+   "month": "2023-03",
+   "id": "r0028"
+  },
+  {
+   "eco": "npm",
+   "pkg": "three",
+   "version": "0.151.0",
+   "published": "2023-03-30",
+   "month": "2023-03",
+   "id": "r0029"
+  },
+  {
+   "eco": "npm",
+   "pkg": "remix",
+   "version": "1.15.0",
+   "published": "2023-03-31",
+   "month": "2023-03",
+   "id": "r0030"
+  },
+  {
+   "eco": "npm",
+   "pkg": "drizzle-orm",
+   "version": "0.23.0",
+   "published": "2023-03-26",
+   "month": "2023-03",
+   "id": "r0031"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@playwright/test",
+   "version": "1.32.0",
+   "published": "2023-03-22",
+   "month": "2023-03",
+   "id": "r0032"
+  },
+  {
+   "eco": "npm",
+   "pkg": "nuxt",
+   "version": "3.3.0",
+   "published": "2023-03-14",
+   "month": "2023-03",
+   "id": "r0033"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "diffusers",
+   "version": "0.14.0",
+   "published": "2023-03-03",
+   "month": "2023-03",
+   "id": "r0034"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "7.29.0",
+   "published": "2023-03-06",
+   "month": "2023-03",
+   "id": "r0035"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "requests",
+   "version": "2.29.0",
+   "published": "2023-04-26",
+   "month": "2023-04",
+   "id": "r0036"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "sphinx",
+   "version": "6.2.0",
+   "published": "2023-04-23",
+   "month": "2023-04",
+   "id": "r0037"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "3.28.0",
+   "published": "2023-04-27",
+   "month": "2023-04",
+   "id": "r0038"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "uvicorn",
+   "version": "0.22.0",
+   "published": "2023-04-28",
+   "month": "2023-04",
+   "id": "r0039"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@angular/core",
+   "version": "13.4.0",
+   "published": "2023-04-06",
+   "month": "2023-04",
+   "id": "r0040"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "streamlit",
+   "version": "1.21.0",
+   "published": "2023-04-06",
+   "month": "2023-04",
+   "id": "r0041"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "datasets",
+   "version": "2.12.0",
+   "published": "2023-04-28",
+   "month": "2023-04",
+   "id": "r0042"
+  },
+  {
+   "eco": "npm",
+   "pkg": "axios",
+   "version": "1.4.0",
+   "published": "2023-04-27",
+   "month": "2023-04",
+   "id": "r0043"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "7.31.0",
+   "published": "2023-04-04",
+   "month": "2023-04",
+   "id": "r0044"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pillow",
+   "version": "9.5.0",
+   "published": "2023-04-01",
+   "month": "2023-04",
+   "id": "r0045"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@nestjs/core",
+   "version": "9.4.0",
+   "published": "2023-04-05",
+   "month": "2023-04",
+   "id": "r0046"
+  },
+  {
+   "eco": "npm",
+   "pkg": "astro",
+   "version": "2.2.0",
+   "published": "2023-04-05",
+   "month": "2023-04",
+   "id": "r0047"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vue",
+   "version": "3.3.0",
+   "published": "2023-05-11",
+   "month": "2023-05",
+   "id": "r0048"
+  },
+  {
+   "eco": "npm",
+   "pkg": "bun-types",
+   "version": "0.6.1",
+   "published": "2023-05-17",
+   "month": "2023-05",
+   "id": "r0049"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@sveltejs/kit",
+   "version": "1.19.0",
+   "published": "2023-05-26",
+   "month": "2023-05",
+   "id": "r0050"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "transformers",
+   "version": "4.29.0",
+   "published": "2023-05-10",
+   "month": "2023-05",
+   "id": "r0051"
+  },
+  {
+   "eco": "npm",
+   "pkg": "hono",
+   "version": "3.2.0",
+   "published": "2023-05-19",
+   "month": "2023-05",
+   "id": "r0052"
+  },
+  {
+   "eco": "npm",
+   "pkg": "webpack",
+   "version": "5.84.0",
+   "published": "2023-05-24",
+   "month": "2023-05",
+   "id": "r0053"
+  },
+  {
+   "eco": "npm",
+   "pkg": "astro",
+   "version": "2.4.0",
+   "published": "2023-05-04",
+   "month": "2023-05",
+   "id": "r0054"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@angular/core",
+   "version": "16.0.0",
+   "published": "2023-05-03",
+   "month": "2023-05",
+   "id": "r0055"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "3.29.0",
+   "published": "2023-05-09",
+   "month": "2023-05",
+   "id": "r0056"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "7.33.0",
+   "published": "2023-05-31",
+   "month": "2023-05",
+   "id": "r0057"
+  },
+  {
+   "eco": "npm",
+   "pkg": "puppeteer",
+   "version": "20.2.0",
+   "published": "2023-05-11",
+   "month": "2023-05",
+   "id": "r0058"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "setuptools",
+   "version": "67.8.0",
+   "published": "2023-05-19",
+   "month": "2023-05",
+   "id": "r0059"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "scikit-learn",
+   "version": "1.3.0",
+   "published": "2023-06-30",
+   "month": "2023-06",
+   "id": "r0060"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vitest",
+   "version": "0.32.0",
+   "published": "2023-06-06",
+   "month": "2023-06",
+   "id": "r0061"
+  },
+  {
+   "eco": "npm",
+   "pkg": "rollup",
+   "version": "3.24.0",
+   "published": "2023-06-07",
+   "month": "2023-06",
+   "id": "r0062"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "8.42.0",
+   "published": "2023-06-02",
+   "month": "2023-06",
+   "id": "r0063"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "celery",
+   "version": "5.3.0",
+   "published": "2023-06-06",
+   "month": "2023-06",
+   "id": "r0064"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "huggingface-hub",
+   "version": "0.15.0",
+   "published": "2023-06-01",
+   "month": "2023-06",
+   "id": "r0065"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "starlette",
+   "version": "0.28.0",
+   "published": "2023-06-07",
+   "month": "2023-06",
+   "id": "r0066"
+  },
+  {
+   "eco": "npm",
+   "pkg": "socket.io",
+   "version": "4.7.0",
+   "published": "2023-06-22",
+   "month": "2023-06",
+   "id": "r0067"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "accelerate",
+   "version": "0.20.0",
+   "published": "2023-06-07",
+   "month": "2023-06",
+   "id": "r0068"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "fastapi",
+   "version": "0.98.0",
+   "published": "2023-06-22",
+   "month": "2023-06",
+   "id": "r0069"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@playwright/test",
+   "version": "1.35.0",
+   "published": "2023-06-08",
+   "month": "2023-06",
+   "id": "r0070"
+  },
+  {
+   "eco": "npm",
+   "pkg": "nuxt",
+   "version": "3.6.0",
+   "published": "2023-06-23",
+   "month": "2023-06",
+   "id": "r0071"
+  },
+  {
+   "eco": "npm",
+   "pkg": "astro",
+   "version": "2.8.0",
+   "published": "2023-07-06",
+   "month": "2023-07",
+   "id": "r0072"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "tensorflow",
+   "version": "2.13.0",
+   "published": "2023-07-05",
+   "month": "2023-07",
+   "id": "r0073"
+  },
+  {
+   "eco": "npm",
+   "pkg": "puppeteer",
+   "version": "20.8.0",
+   "published": "2023-07-06",
+   "month": "2023-07",
+   "id": "r0074"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "huggingface-hub",
+   "version": "0.16.1",
+   "published": "2023-07-05",
+   "month": "2023-07",
+   "id": "r0075"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@playwright/test",
+   "version": "1.36.0",
+   "published": "2023-07-11",
+   "month": "2023-07",
+   "id": "r0076"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "diffusers",
+   "version": "0.19.0",
+   "published": "2023-07-26",
+   "month": "2023-07",
+   "id": "r0077"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "peft",
+   "version": "0.4.0",
+   "published": "2023-07-17",
+   "month": "2023-07",
+   "id": "r0078"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "starlette",
+   "version": "0.31.0",
+   "published": "2023-07-24",
+   "month": "2023-07",
+   "id": "r0079"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prettier",
+   "version": "3.0.0",
+   "published": "2023-07-05",
+   "month": "2023-07",
+   "id": "r0080"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "8.45.0",
+   "published": "2023-07-14",
+   "month": "2023-07",
+   "id": "r0081"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pip",
+   "version": "23.2",
+   "published": "2023-07-15",
+   "month": "2023-07",
+   "id": "r0082"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "uvicorn",
+   "version": "0.23.0",
+   "published": "2023-07-15",
+   "month": "2023-07",
+   "id": "r0083"
+  },
+  {
+   "eco": "npm",
+   "pkg": "drizzle-orm",
+   "version": "0.28.0",
+   "published": "2023-08-06",
+   "month": "2023-08",
+   "id": "r0084"
+  },
+  {
+   "eco": "npm",
+   "pkg": "fastify",
+   "version": "4.22.0",
+   "published": "2023-08-27",
+   "month": "2023-08",
+   "id": "r0085"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "26.1.0",
+   "published": "2023-08-23",
+   "month": "2023-08",
+   "id": "r0086"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pyarrow",
+   "version": "13.0.0",
+   "published": "2023-08-23",
+   "month": "2023-08",
+   "id": "r0087"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pydantic",
+   "version": "2.2.0",
+   "published": "2023-08-17",
+   "month": "2023-08",
+   "id": "r0088"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@sveltejs/kit",
+   "version": "1.24.0",
+   "published": "2023-08-29",
+   "month": "2023-08",
+   "id": "r0089"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prisma",
+   "version": "5.1.0",
+   "published": "2023-08-01",
+   "month": "2023-08",
+   "id": "r0090"
+  },
+  {
+   "eco": "npm",
+   "pkg": "esbuild",
+   "version": "0.19.0",
+   "published": "2023-08-08",
+   "month": "2023-08",
+   "id": "r0091"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "3.40.0",
+   "published": "2023-08-10",
+   "month": "2023-08",
+   "id": "r0092"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pandas",
+   "version": "2.1.0",
+   "published": "2023-08-30",
+   "month": "2023-08",
+   "id": "r0093"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "accelerate",
+   "version": "0.22.0",
+   "published": "2023-08-23",
+   "month": "2023-08",
+   "id": "r0094"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@angular/core",
+   "version": "16.2.0",
+   "published": "2023-08-09",
+   "month": "2023-08",
+   "id": "r0095"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "8.49.0",
+   "published": "2023-09-08",
+   "month": "2023-09",
+   "id": "r0096"
+  },
+  {
+   "eco": "npm",
+   "pkg": "preact",
+   "version": "10.18.0",
+   "published": "2023-09-28",
+   "month": "2023-09",
+   "id": "r0097"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "3.45.0",
+   "published": "2023-09-26",
+   "month": "2023-09",
+   "id": "r0098"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "vllm",
+   "version": "0.2.0",
+   "published": "2023-09-28",
+   "month": "2023-09",
+   "id": "r0099"
+  },
+  {
+   "eco": "npm",
+   "pkg": "astro",
+   "version": "3.2.0",
+   "published": "2023-09-28",
+   "month": "2023-09",
+   "id": "r0100"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "matplotlib",
+   "version": "3.8.0",
+   "published": "2023-09-15",
+   "month": "2023-09",
+   "id": "r0101"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "dask",
+   "version": "2023.9.0",
+   "published": "2023-09-01",
+   "month": "2023-09",
+   "id": "r0102"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "26.2.0",
+   "published": "2023-09-07",
+   "month": "2023-09",
+   "id": "r0103"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "4.5.0",
+   "published": "2023-09-06",
+   "month": "2023-09",
+   "id": "r0104"
+  },
+  {
+   "eco": "npm",
+   "pkg": "next",
+   "version": "13.5.0",
+   "published": "2023-09-19",
+   "month": "2023-09",
+   "id": "r0105"
+  },
+  {
+   "eco": "npm",
+   "pkg": "hono",
+   "version": "3.7.0",
+   "published": "2023-09-21",
+   "month": "2023-09",
+   "id": "r0106"
+  },
+  {
+   "eco": "npm",
+   "pkg": "remix",
+   "version": "2.0.0",
+   "published": "2023-09-15",
+   "month": "2023-09",
+   "id": "r0107"
+  },
+  {
+   "eco": "npm",
+   "pkg": "rollup",
+   "version": "4.1.0",
+   "published": "2023-10-14",
+   "month": "2023-10",
+   "id": "r0108"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "accelerate",
+   "version": "0.24.0",
+   "published": "2023-10-24",
+   "month": "2023-10",
+   "id": "r0109"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pillow",
+   "version": "10.1.0",
+   "published": "2023-10-15",
+   "month": "2023-10",
+   "id": "r0110"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "26.3.0",
+   "published": "2023-10-05",
+   "month": "2023-10",
+   "id": "r0111"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "0.5.0",
+   "published": "2023-10-18",
+   "month": "2023-10",
+   "id": "r0112"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prisma",
+   "version": "5.5.0",
+   "published": "2023-10-24",
+   "month": "2023-10",
+   "id": "r0113"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "ruff",
+   "version": "0.1.0",
+   "published": "2023-10-16",
+   "month": "2023-10",
+   "id": "r0114"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@anthropic-ai/sdk",
+   "version": "0.7.0",
+   "published": "2023-10-22",
+   "month": "2023-10",
+   "id": "r0115"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@sveltejs/kit",
+   "version": "1.26.0",
+   "published": "2023-10-18",
+   "month": "2023-10",
+   "id": "r0116"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "mypy",
+   "version": "1.6.0",
+   "published": "2023-10-10",
+   "month": "2023-10",
+   "id": "r0117"
+  },
+  {
+   "eco": "npm",
+   "pkg": "fastify",
+   "version": "4.24.0",
+   "published": "2023-10-11",
+   "month": "2023-10",
+   "id": "r0118"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "8.51.0",
+   "published": "2023-10-06",
+   "month": "2023-10",
+   "id": "r0119"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "8.53.0",
+   "published": "2023-11-03",
+   "month": "2023-11",
+   "id": "r0120"
+  },
+  {
+   "eco": "npm",
+   "pkg": "typescript",
+   "version": "5.3.2",
+   "published": "2023-11-20",
+   "month": "2023-11",
+   "id": "r0121"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "openai",
+   "version": "1.2.0",
+   "published": "2023-11-09",
+   "month": "2023-11",
+   "id": "r0122"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "27.1.0",
+   "published": "2023-11-15",
+   "month": "2023-11",
+   "id": "r0123"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "boto3",
+   "version": "1.29.0",
+   "published": "2023-11-14",
+   "month": "2023-11",
+   "id": "r0124"
+  },
+  {
+   "eco": "npm",
+   "pkg": "rollup",
+   "version": "4.3.0",
+   "published": "2023-11-03",
+   "month": "2023-11",
+   "id": "r0125"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "4.1.0",
+   "published": "2023-11-03",
+   "month": "2023-11",
+   "id": "r0126"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "diffusers",
+   "version": "0.22.0",
+   "published": "2023-11-06",
+   "month": "2023-11",
+   "id": "r0127"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vite",
+   "version": "5.0.0",
+   "published": "2023-11-16",
+   "month": "2023-11",
+   "id": "r0128"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prisma",
+   "version": "5.6.0",
+   "published": "2023-11-14",
+   "month": "2023-11",
+   "id": "r0129"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "peft",
+   "version": "0.6.0",
+   "published": "2023-11-03",
+   "month": "2023-11",
+   "id": "r0130"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pyarrow",
+   "version": "14.0.0",
+   "published": "2023-11-01",
+   "month": "2023-11",
+   "id": "r0131"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@sveltejs/kit",
+   "version": "1.28.0",
+   "published": "2023-12-11",
+   "month": "2023-12",
+   "id": "r0132"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "httpx",
+   "version": "0.26.0",
+   "published": "2023-12-20",
+   "month": "2023-12",
+   "id": "r0133"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "openai",
+   "version": "1.4.0",
+   "published": "2023-12-15",
+   "month": "2023-12",
+   "id": "r0134"
+  },
+  {
+   "eco": "npm",
+   "pkg": "tailwindcss",
+   "version": "3.4.0",
+   "published": "2023-12-19",
+   "month": "2023-12",
+   "id": "r0135"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vitest",
+   "version": "1.1.0",
+   "published": "2023-12-19",
+   "month": "2023-12",
+   "id": "r0136"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "8.55.0",
+   "published": "2023-12-01",
+   "month": "2023-12",
+   "id": "r0137"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "apache-airflow",
+   "version": "2.8.0",
+   "published": "2023-12-18",
+   "month": "2023-12",
+   "id": "r0138"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "django",
+   "version": "5.0",
+   "published": "2023-12-04",
+   "month": "2023-12",
+   "id": "r0139"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "boto3",
+   "version": "1.34.0",
+   "published": "2023-12-13",
+   "month": "2023-12",
+   "id": "r0140"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@anthropic-ai/sdk",
+   "version": "0.12.0",
+   "published": "2023-12-21",
+   "month": "2023-12",
+   "id": "r0141"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "fastapi",
+   "version": "0.105.0",
+   "published": "2023-12-12",
+   "month": "2023-12",
+   "id": "r0142"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "starlette",
+   "version": "0.34.0",
+   "published": "2023-12-16",
+   "month": "2023-12",
+   "id": "r0143"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pytest",
+   "version": "8.0.0",
+   "published": "2024-01-27",
+   "month": "2024-01",
+   "id": "r0144"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "langchain",
+   "version": "0.1.0",
+   "published": "2024-01-06",
+   "month": "2024-01",
+   "id": "r0145"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "4.14.0",
+   "published": "2024-01-10",
+   "month": "2024-01",
+   "id": "r0146"
+  },
+  {
+   "eco": "npm",
+   "pkg": "nuxt",
+   "version": "3.10.0",
+   "published": "2024-01-30",
+   "month": "2024-01",
+   "id": "r0147"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prisma",
+   "version": "5.9.0",
+   "published": "2024-01-30",
+   "month": "2024-01",
+   "id": "r0148"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@sveltejs/kit",
+   "version": "2.1.0",
+   "published": "2024-01-09",
+   "month": "2024-01",
+   "id": "r0149"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "openai",
+   "version": "1.7.0",
+   "published": "2024-01-09",
+   "month": "2024-01",
+   "id": "r0150"
+  },
+  {
+   "eco": "npm",
+   "pkg": "astro",
+   "version": "4.2.0",
+   "published": "2024-01-18",
+   "month": "2024-01",
+   "id": "r0151"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@angular/core",
+   "version": "17.1.0",
+   "published": "2024-01-17",
+   "month": "2024-01",
+   "id": "r0152"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pydantic",
+   "version": "2.6.0",
+   "published": "2024-01-29",
+   "month": "2024-01",
+   "id": "r0153"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "vllm",
+   "version": "0.3.0",
+   "published": "2024-01-31",
+   "month": "2024-01",
+   "id": "r0154"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "8.15.0",
+   "published": "2024-01-27",
+   "month": "2024-01",
+   "id": "r0155"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "peft",
+   "version": "0.9.0",
+   "published": "2024-02-28",
+   "month": "2024-02",
+   "id": "r0156"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "transformers",
+   "version": "4.38.0",
+   "published": "2024-02-21",
+   "month": "2024-02",
+   "id": "r0157"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@playwright/test",
+   "version": "1.42.0",
+   "published": "2024-02-27",
+   "month": "2024-02",
+   "id": "r0158"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "ruff",
+   "version": "0.3.0",
+   "published": "2024-02-29",
+   "month": "2024-02",
+   "id": "r0159"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "huggingface-hub",
+   "version": "0.21.0",
+   "published": "2024-02-27",
+   "month": "2024-02",
+   "id": "r0160"
+  },
+  {
+   "eco": "npm",
+   "pkg": "puppeteer",
+   "version": "22.3.0",
+   "published": "2024-02-26",
+   "month": "2024-02",
+   "id": "r0161"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "duckdb",
+   "version": "0.10.0",
+   "published": "2024-02-13",
+   "month": "2024-02",
+   "id": "r0162"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "0.15.0",
+   "published": "2024-02-02",
+   "month": "2024-02",
+   "id": "r0163"
+  },
+  {
+   "eco": "npm",
+   "pkg": "remix",
+   "version": "2.7.0",
+   "published": "2024-02-20",
+   "month": "2024-02",
+   "id": "r0164"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "4.28.0",
+   "published": "2024-02-13",
+   "month": "2024-02",
+   "id": "r0165"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "8.57.0",
+   "published": "2024-02-23",
+   "month": "2024-02",
+   "id": "r0166"
+  },
+  {
+   "eco": "npm",
+   "pkg": "rollup",
+   "version": "4.12.0",
+   "published": "2024-02-16",
+   "month": "2024-02",
+   "id": "r0167"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "accelerate",
+   "version": "0.28.0",
+   "published": "2024-03-12",
+   "month": "2024-03",
+   "id": "r0168"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "streamlit",
+   "version": "1.32.0",
+   "published": "2024-03-07",
+   "month": "2024-03",
+   "id": "r0169"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "mypy",
+   "version": "1.9.0",
+   "published": "2024-03-08",
+   "month": "2024-03",
+   "id": "r0170"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@anthropic-ai/sdk",
+   "version": "0.17.0",
+   "published": "2024-03-06",
+   "month": "2024-03",
+   "id": "r0171"
+  },
+  {
+   "eco": "npm",
+   "pkg": "express",
+   "version": "4.19.0",
+   "published": "2024-03-20",
+   "month": "2024-03",
+   "id": "r0172"
+  },
+  {
+   "eco": "npm",
+   "pkg": "preact",
+   "version": "10.20.0",
+   "published": "2024-03-20",
+   "month": "2024-03",
+   "id": "r0173"
+  },
+  {
+   "eco": "npm",
+   "pkg": "nuxt",
+   "version": "3.11.0",
+   "published": "2024-03-17",
+   "month": "2024-03",
+   "id": "r0174"
+  },
+  {
+   "eco": "npm",
+   "pkg": "hono",
+   "version": "4.1.0",
+   "published": "2024-03-11",
+   "month": "2024-03",
+   "id": "r0175"
+  },
+  {
+   "eco": "npm",
+   "pkg": "d3",
+   "version": "7.9.0",
+   "published": "2024-03-12",
+   "month": "2024-03",
+   "id": "r0176"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "transformers",
+   "version": "4.39.0",
+   "published": "2024-03-21",
+   "month": "2024-03",
+   "id": "r0177"
+  },
+  {
+   "eco": "npm",
+   "pkg": "puppeteer",
+   "version": "22.5.0",
+   "published": "2024-03-15",
+   "month": "2024-03",
+   "id": "r0178"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "0.20.0",
+   "published": "2024-03-13",
+   "month": "2024-03",
+   "id": "r0179"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "4.35.0",
+   "published": "2024-04-16",
+   "month": "2024-04",
+   "id": "r0180"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "datasets",
+   "version": "2.19.0",
+   "published": "2024-04-19",
+   "month": "2024-04",
+   "id": "r0181"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "4.28.0",
+   "published": "2024-04-25",
+   "month": "2024-04",
+   "id": "r0182"
+  },
+  {
+   "eco": "npm",
+   "pkg": "puppeteer",
+   "version": "22.7.0",
+   "published": "2024-04-23",
+   "month": "2024-04",
+   "id": "r0183"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "dask",
+   "version": "2024.4.0",
+   "published": "2024-04-01",
+   "month": "2024-04",
+   "id": "r0184"
+  },
+  {
+   "eco": "npm",
+   "pkg": "react",
+   "version": "18.3.0",
+   "published": "2024-04-25",
+   "month": "2024-04",
+   "id": "r0185"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "streamlit",
+   "version": "1.33.0",
+   "published": "2024-04-04",
+   "month": "2024-04",
+   "id": "r0186"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "ruff",
+   "version": "0.4.0",
+   "published": "2024-04-18",
+   "month": "2024-04",
+   "id": "r0187"
+  },
+  {
+   "eco": "npm",
+   "pkg": "three",
+   "version": "0.164.0",
+   "published": "2024-04-25",
+   "month": "2024-04",
+   "id": "r0188"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "celery",
+   "version": "5.4.0",
+   "published": "2024-04-17",
+   "month": "2024-04",
+   "id": "r0189"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "setuptools",
+   "version": "69.3.0",
+   "published": "2024-04-12",
+   "month": "2024-04",
+   "id": "r0190"
+  },
+  {
+   "eco": "npm",
+   "pkg": "ai",
+   "version": "3.1.0",
+   "published": "2024-04-30",
+   "month": "2024-04",
+   "id": "r0191"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "4.40.0",
+   "published": "2024-05-01",
+   "month": "2024-05",
+   "id": "r0192"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@anthropic-ai/sdk",
+   "version": "0.21.0",
+   "published": "2024-05-16",
+   "month": "2024-05",
+   "id": "r0193"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "matplotlib",
+   "version": "3.9.0",
+   "published": "2024-05-15",
+   "month": "2024-05",
+   "id": "r0194"
+  },
+  {
+   "eco": "npm",
+   "pkg": "three",
+   "version": "0.165.0",
+   "published": "2024-05-31",
+   "month": "2024-05",
+   "id": "r0195"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "29.4.0",
+   "published": "2024-05-15",
+   "month": "2024-05",
+   "id": "r0196"
+  },
+  {
+   "eco": "npm",
+   "pkg": "fastify",
+   "version": "4.27.0",
+   "published": "2024-05-07",
+   "month": "2024-05",
+   "id": "r0197"
+  },
+  {
+   "eco": "npm",
+   "pkg": "puppeteer",
+   "version": "22.10.0",
+   "published": "2024-05-24",
+   "month": "2024-05",
+   "id": "r0198"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "huggingface-hub",
+   "version": "0.23.0",
+   "published": "2024-05-02",
+   "month": "2024-05",
+   "id": "r0199"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "9.2.0",
+   "published": "2024-05-03",
+   "month": "2024-05",
+   "id": "r0200"
+  },
+  {
+   "eco": "npm",
+   "pkg": "astro",
+   "version": "4.9.0",
+   "published": "2024-05-23",
+   "month": "2024-05",
+   "id": "r0201"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "uv",
+   "version": "0.2.0",
+   "published": "2024-05-22",
+   "month": "2024-05",
+   "id": "r0202"
+  },
+  {
+   "eco": "npm",
+   "pkg": "hono",
+   "version": "4.4.0",
+   "published": "2024-05-27",
+   "month": "2024-05",
+   "id": "r0203"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "0.30.0",
+   "published": "2024-06-26",
+   "month": "2024-06",
+   "id": "r0204"
+  },
+  {
+   "eco": "npm",
+   "pkg": "astro",
+   "version": "4.11.0",
+   "published": "2024-06-20",
+   "month": "2024-06",
+   "id": "r0205"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@anthropic-ai/sdk",
+   "version": "0.24.0",
+   "published": "2024-06-20",
+   "month": "2024-06",
+   "id": "r0206"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prisma",
+   "version": "5.16.0",
+   "published": "2024-06-25",
+   "month": "2024-06",
+   "id": "r0207"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "4.51.0",
+   "published": "2024-06-12",
+   "month": "2024-06",
+   "id": "r0208"
+  },
+  {
+   "eco": "npm",
+   "pkg": "puppeteer",
+   "version": "22.12.0",
+   "published": "2024-06-21",
+   "month": "2024-06",
+   "id": "r0209"
+  },
+  {
+   "eco": "npm",
+   "pkg": "react-router",
+   "version": "6.24.0",
+   "published": "2024-06-24",
+   "month": "2024-06",
+   "id": "r0210"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "4.37.1",
+   "published": "2024-06-25",
+   "month": "2024-06",
+   "id": "r0211"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "vllm",
+   "version": "0.5.0",
+   "published": "2024-06-11",
+   "month": "2024-06",
+   "id": "r0212"
+  },
+  {
+   "eco": "npm",
+   "pkg": "esbuild",
+   "version": "0.22.0",
+   "published": "2024-06-30",
+   "month": "2024-06",
+   "id": "r0213"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "diffusers",
+   "version": "0.29.0",
+   "published": "2024-06-12",
+   "month": "2024-06",
+   "id": "r0214"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "9.5.0",
+   "published": "2024-06-14",
+   "month": "2024-06",
+   "id": "r0215"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "setuptools",
+   "version": "71.1.0",
+   "published": "2024-07-21",
+   "month": "2024-07",
+   "id": "r0216"
+  },
+  {
+   "eco": "npm",
+   "pkg": "three",
+   "version": "0.167.0",
+   "published": "2024-07-25",
+   "month": "2024-07",
+   "id": "r0217"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "4.40.0",
+   "published": "2024-07-31",
+   "month": "2024-07",
+   "id": "r0218"
+  },
+  {
+   "eco": "npm",
+   "pkg": "webpack",
+   "version": "5.93.0",
+   "published": "2024-07-11",
+   "month": "2024-07",
+   "id": "r0219"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "30.2.0",
+   "published": "2024-07-10",
+   "month": "2024-07",
+   "id": "r0220"
+  },
+  {
+   "eco": "npm",
+   "pkg": "puppeteer",
+   "version": "22.14.0",
+   "published": "2024-07-25",
+   "month": "2024-07",
+   "id": "r0221"
+  },
+  {
+   "eco": "npm",
+   "pkg": "hono",
+   "version": "4.5.0",
+   "published": "2024-07-16",
+   "month": "2024-07",
+   "id": "r0222"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pytest",
+   "version": "8.3.0",
+   "published": "2024-07-20",
+   "month": "2024-07",
+   "id": "r0223"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pyarrow",
+   "version": "17.0.0",
+   "published": "2024-07-16",
+   "month": "2024-07",
+   "id": "r0224"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vitest",
+   "version": "2.0.0",
+   "published": "2024-07-08",
+   "month": "2024-07",
+   "id": "r0225"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "starlette",
+   "version": "0.38.0",
+   "published": "2024-07-20",
+   "month": "2024-07",
+   "id": "r0226"
+  },
+  {
+   "eco": "npm",
+   "pkg": "mongoose",
+   "version": "8.5.0",
+   "published": "2024-07-08",
+   "month": "2024-07",
+   "id": "r0227"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "streamlit",
+   "version": "1.38.0",
+   "published": "2024-08-27",
+   "month": "2024-08",
+   "id": "r0228"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "4.41.0",
+   "published": "2024-08-08",
+   "month": "2024-08",
+   "id": "r0229"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "uv",
+   "version": "0.4.0",
+   "published": "2024-08-28",
+   "month": "2024-08",
+   "id": "r0230"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "openai",
+   "version": "1.40.0",
+   "published": "2024-08-06",
+   "month": "2024-08",
+   "id": "r0231"
+  },
+  {
+   "eco": "npm",
+   "pkg": "puppeteer",
+   "version": "23.2.0",
+   "published": "2024-08-26",
+   "month": "2024-08",
+   "id": "r0232"
+  },
+  {
+   "eco": "npm",
+   "pkg": "turbo",
+   "version": "2.1.0",
+   "published": "2024-08-27",
+   "month": "2024-08",
+   "id": "r0233"
+  },
+  {
+   "eco": "npm",
+   "pkg": "astro",
+   "version": "4.14.0",
+   "published": "2024-08-15",
+   "month": "2024-08",
+   "id": "r0234"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "0.34.0",
+   "published": "2024-08-14",
+   "month": "2024-08",
+   "id": "r0235"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "setuptools",
+   "version": "72.2.0",
+   "published": "2024-08-13",
+   "month": "2024-08",
+   "id": "r0236"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "numpy",
+   "version": "2.1.0",
+   "published": "2024-08-18",
+   "month": "2024-08",
+   "id": "r0237"
+  },
+  {
+   "eco": "npm",
+   "pkg": "ai",
+   "version": "3.3.0",
+   "published": "2024-08-02",
+   "month": "2024-08",
+   "id": "r0238"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vite",
+   "version": "5.4.0",
+   "published": "2024-08-07",
+   "month": "2024-08",
+   "id": "r0239"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "openai",
+   "version": "1.47.0",
+   "published": "2024-09-20",
+   "month": "2024-09",
+   "id": "r0240"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "duckdb",
+   "version": "1.1.0",
+   "published": "2024-09-09",
+   "month": "2024-09",
+   "id": "r0241"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "31.6.0",
+   "published": "2024-09-11",
+   "month": "2024-09",
+   "id": "r0242"
+  },
+  {
+   "eco": "npm",
+   "pkg": "socket.io",
+   "version": "4.8.0",
+   "published": "2024-09-21",
+   "month": "2024-09",
+   "id": "r0243"
+  },
+  {
+   "eco": "npm",
+   "pkg": "langchain",
+   "version": "0.3.0",
+   "published": "2024-09-13",
+   "month": "2024-09",
+   "id": "r0244"
+  },
+  {
+   "eco": "npm",
+   "pkg": "express",
+   "version": "4.21.0",
+   "published": "2024-09-11",
+   "month": "2024-09",
+   "id": "r0245"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "4.43.0",
+   "published": "2024-09-06",
+   "month": "2024-09",
+   "id": "r0246"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "peft",
+   "version": "0.13.0",
+   "published": "2024-09-25",
+   "month": "2024-09",
+   "id": "r0247"
+  },
+  {
+   "eco": "npm",
+   "pkg": "esbuild",
+   "version": "0.24.0",
+   "published": "2024-09-22",
+   "month": "2024-09",
+   "id": "r0248"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "datasets",
+   "version": "3.0.0",
+   "published": "2024-09-11",
+   "month": "2024-09",
+   "id": "r0249"
+  },
+  {
+   "eco": "npm",
+   "pkg": "remix",
+   "version": "2.12.0",
+   "published": "2024-09-09",
+   "month": "2024-09",
+   "id": "r0250"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@biomejs/biome",
+   "version": "1.9.0",
+   "published": "2024-09-12",
+   "month": "2024-09",
+   "id": "r0251"
+  },
+  {
+   "eco": "npm",
+   "pkg": "rollup",
+   "version": "4.24.0",
+   "published": "2024-10-02",
+   "month": "2024-10",
+   "id": "r0252"
+  },
+  {
+   "eco": "npm",
+   "pkg": "storybook",
+   "version": "8.4.0",
+   "published": "2024-10-31",
+   "month": "2024-10",
+   "id": "r0253"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "setuptools",
+   "version": "75.3.0",
+   "published": "2024-10-29",
+   "month": "2024-10",
+   "id": "r0254"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "datasets",
+   "version": "3.1.0",
+   "published": "2024-10-31",
+   "month": "2024-10",
+   "id": "r0255"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "huggingface-hub",
+   "version": "0.26.0",
+   "published": "2024-10-18",
+   "month": "2024-10",
+   "id": "r0256"
+  },
+  {
+   "eco": "npm",
+   "pkg": "svelte",
+   "version": "5.0.0",
+   "published": "2024-10-19",
+   "month": "2024-10",
+   "id": "r0257"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "diffusers",
+   "version": "0.31.0",
+   "published": "2024-10-22",
+   "month": "2024-10",
+   "id": "r0258"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "32.2.0",
+   "published": "2024-10-09",
+   "month": "2024-10",
+   "id": "r0259"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "4.67.0",
+   "published": "2024-10-01",
+   "month": "2024-10",
+   "id": "r0260"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "polars",
+   "version": "1.10.0",
+   "published": "2024-10-20",
+   "month": "2024-10",
+   "id": "r0261"
+  },
+  {
+   "eco": "npm",
+   "pkg": "drizzle-orm",
+   "version": "0.35.0",
+   "published": "2024-10-15",
+   "month": "2024-10",
+   "id": "r0262"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prisma",
+   "version": "5.21.0",
+   "published": "2024-10-15",
+   "month": "2024-10",
+   "id": "r0263"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "ruff",
+   "version": "0.8.0",
+   "published": "2024-11-22",
+   "month": "2024-11",
+   "id": "r0264"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "33.2.0",
+   "published": "2024-11-07",
+   "month": "2024-11",
+   "id": "r0265"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@anthropic-ai/sdk",
+   "version": "0.32.0",
+   "published": "2024-11-04",
+   "month": "2024-11",
+   "id": "r0266"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "9.16.0",
+   "published": "2024-11-29",
+   "month": "2024-11",
+   "id": "r0267"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "5.7.0",
+   "published": "2024-11-27",
+   "month": "2024-11",
+   "id": "r0268"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prisma",
+   "version": "6.0.0",
+   "published": "2024-11-28",
+   "month": "2024-11",
+   "id": "r0269"
+  },
+  {
+   "eco": "npm",
+   "pkg": "remix",
+   "version": "2.15.0",
+   "published": "2024-11-22",
+   "month": "2024-11",
+   "id": "r0270"
+  },
+  {
+   "eco": "npm",
+   "pkg": "svelte",
+   "version": "5.2.0",
+   "published": "2024-11-14",
+   "month": "2024-11",
+   "id": "r0271"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pyarrow",
+   "version": "18.1.0",
+   "published": "2024-11-26",
+   "month": "2024-11",
+   "id": "r0272"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "4.71.0",
+   "published": "2024-11-04",
+   "month": "2024-11",
+   "id": "r0273"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "dask",
+   "version": "2024.11.0",
+   "published": "2024-11-08",
+   "month": "2024-11",
+   "id": "r0274"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "accelerate",
+   "version": "1.1.0",
+   "published": "2024-11-01",
+   "month": "2024-11",
+   "id": "r0275"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "peft",
+   "version": "0.14.0",
+   "published": "2024-12-06",
+   "month": "2024-12",
+   "id": "r0276"
+  },
+  {
+   "eco": "npm",
+   "pkg": "three",
+   "version": "0.172.0",
+   "published": "2024-12-31",
+   "month": "2024-12",
+   "id": "r0277"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "mypy",
+   "version": "1.14.0",
+   "published": "2024-12-20",
+   "month": "2024-12",
+   "id": "r0278"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "diffusers",
+   "version": "0.32.0",
+   "published": "2024-12-23",
+   "month": "2024-12",
+   "id": "r0279"
+  },
+  {
+   "eco": "npm",
+   "pkg": "svelte",
+   "version": "5.14.0",
+   "published": "2024-12-15",
+   "month": "2024-12",
+   "id": "r0280"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "uvicorn",
+   "version": "0.33.0",
+   "published": "2024-12-14",
+   "month": "2024-12",
+   "id": "r0281"
+  },
+  {
+   "eco": "npm",
+   "pkg": "astro",
+   "version": "5.0.0",
+   "published": "2024-12-03",
+   "month": "2024-12",
+   "id": "r0282"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "4.74.0",
+   "published": "2024-12-02",
+   "month": "2024-12",
+   "id": "r0283"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "9.15.0",
+   "published": "2024-12-06",
+   "month": "2024-12",
+   "id": "r0284"
+  },
+  {
+   "eco": "npm",
+   "pkg": "react-router",
+   "version": "7.1.0",
+   "published": "2024-12-20",
+   "month": "2024-12",
+   "id": "r0285"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@sveltejs/kit",
+   "version": "2.15.0",
+   "published": "2024-12-22",
+   "month": "2024-12",
+   "id": "r0286"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prisma",
+   "version": "6.1.0",
+   "published": "2024-12-17",
+   "month": "2024-12",
+   "id": "r0287"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pillow",
+   "version": "11.1.0",
+   "published": "2025-01-02",
+   "month": "2025-01",
+   "id": "r0288"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "32.3.0",
+   "published": "2025-01-23",
+   "month": "2025-01",
+   "id": "r0289"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "setuptools",
+   "version": "75.8.0",
+   "published": "2025-01-08",
+   "month": "2025-01",
+   "id": "r0290"
+  },
+  {
+   "eco": "npm",
+   "pkg": "rollup",
+   "version": "4.31.0",
+   "published": "2025-01-19",
+   "month": "2025-01",
+   "id": "r0291"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "10.0.0",
+   "published": "2025-01-07",
+   "month": "2025-01",
+   "id": "r0292"
+  },
+  {
+   "eco": "npm",
+   "pkg": "astro",
+   "version": "5.2.0",
+   "published": "2025-01-30",
+   "month": "2025-01",
+   "id": "r0293"
+  },
+  {
+   "eco": "npm",
+   "pkg": "svelte",
+   "version": "5.19.0",
+   "published": "2025-01-17",
+   "month": "2025-01",
+   "id": "r0294"
+  },
+  {
+   "eco": "npm",
+   "pkg": "mocha",
+   "version": "11.1.0",
+   "published": "2025-01-02",
+   "month": "2025-01",
+   "id": "r0295"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "9.19.0",
+   "published": "2025-01-24",
+   "month": "2025-01",
+   "id": "r0296"
+  },
+  {
+   "eco": "npm",
+   "pkg": "three",
+   "version": "0.173.0",
+   "published": "2025-01-31",
+   "month": "2025-01",
+   "id": "r0297"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "accelerate",
+   "version": "1.3.0",
+   "published": "2025-01-17",
+   "month": "2025-01",
+   "id": "r0298"
+  },
+  {
+   "eco": "npm",
+   "pkg": "turbo",
+   "version": "2.4.0",
+   "published": "2025-01-31",
+   "month": "2025-01",
+   "id": "r0299"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "huggingface-hub",
+   "version": "0.29.0",
+   "published": "2025-02-19",
+   "month": "2025-02",
+   "id": "r0300"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "4.86.0",
+   "published": "2025-02-27",
+   "month": "2025-02",
+   "id": "r0301"
+  },
+  {
+   "eco": "npm",
+   "pkg": "svelte",
+   "version": "5.20.0",
+   "published": "2025-02-12",
+   "month": "2025-02",
+   "id": "r0302"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "34.3.0",
+   "published": "2025-02-26",
+   "month": "2025-02",
+   "id": "r0303"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "10.2.0",
+   "published": "2025-02-03",
+   "month": "2025-02",
+   "id": "r0304"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "0.49.0",
+   "published": "2025-02-28",
+   "month": "2025-02",
+   "id": "r0305"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "transformers",
+   "version": "4.49.0",
+   "published": "2025-02-17",
+   "month": "2025-02",
+   "id": "r0306"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "datasets",
+   "version": "3.3.0",
+   "published": "2025-02-14",
+   "month": "2025-02",
+   "id": "r0307"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "dask",
+   "version": "2025.2.0",
+   "published": "2025-02-13",
+   "month": "2025-02",
+   "id": "r0308"
+  },
+  {
+   "eco": "npm",
+   "pkg": "drizzle-orm",
+   "version": "0.40.0",
+   "published": "2025-02-25",
+   "month": "2025-02",
+   "id": "r0309"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prisma",
+   "version": "6.4.0",
+   "published": "2025-02-18",
+   "month": "2025-02",
+   "id": "r0310"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vite",
+   "version": "6.2.0",
+   "published": "2025-02-25",
+   "month": "2025-02",
+   "id": "r0311"
+  },
+  {
+   "eco": "npm",
+   "pkg": "astro",
+   "version": "5.5.0",
+   "published": "2025-03-13",
+   "month": "2025-03",
+   "id": "r0312"
+  },
+  {
+   "eco": "npm",
+   "pkg": "react-router",
+   "version": "7.4.0",
+   "published": "2025-03-19",
+   "month": "2025-03",
+   "id": "r0313"
+  },
+  {
+   "eco": "npm",
+   "pkg": "axios",
+   "version": "0.30.0",
+   "published": "2025-03-26",
+   "month": "2025-03",
+   "id": "r0314"
+  },
+  {
+   "eco": "npm",
+   "pkg": "rollup",
+   "version": "4.38.0",
+   "published": "2025-03-29",
+   "month": "2025-03",
+   "id": "r0315"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "setuptools",
+   "version": "78.1.0",
+   "published": "2025-03-25",
+   "month": "2025-03",
+   "id": "r0316"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "34.4.0",
+   "published": "2025-03-26",
+   "month": "2025-03",
+   "id": "r0317"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "vllm",
+   "version": "0.8.0",
+   "published": "2025-03-18",
+   "month": "2025-03",
+   "id": "r0318"
+  },
+  {
+   "eco": "npm",
+   "pkg": "svelte",
+   "version": "5.25.0",
+   "published": "2025-03-21",
+   "month": "2025-03",
+   "id": "r0319"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "dask",
+   "version": "2025.3.0",
+   "published": "2025-03-21",
+   "month": "2025-03",
+   "id": "r0320"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "openai",
+   "version": "1.68.0",
+   "published": "2025-03-20",
+   "month": "2025-03",
+   "id": "r0321"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "10.6.0",
+   "published": "2025-03-06",
+   "month": "2025-03",
+   "id": "r0322"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "9.22.0",
+   "published": "2025-03-07",
+   "month": "2025-03",
+   "id": "r0323"
+  },
+  {
+   "eco": "npm",
+   "pkg": "react-router",
+   "version": "7.5.0",
+   "published": "2025-04-04",
+   "month": "2025-04",
+   "id": "r0324"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@nestjs/core",
+   "version": "11.1.0",
+   "published": "2025-04-23",
+   "month": "2025-04",
+   "id": "r0325"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "jax",
+   "version": "0.6.0",
+   "published": "2025-04-17",
+   "month": "2025-04",
+   "id": "r0326"
+  },
+  {
+   "eco": "npm",
+   "pkg": "webpack",
+   "version": "5.99.0",
+   "published": "2025-04-07",
+   "month": "2025-04",
+   "id": "r0327"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "10.9.0",
+   "published": "2025-04-21",
+   "month": "2025-04",
+   "id": "r0328"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "torch",
+   "version": "2.7.0",
+   "published": "2025-04-23",
+   "month": "2025-04",
+   "id": "r0329"
+  },
+  {
+   "eco": "npm",
+   "pkg": "three",
+   "version": "0.176.0",
+   "published": "2025-04-23",
+   "month": "2025-04",
+   "id": "r0330"
+  },
+  {
+   "eco": "npm",
+   "pkg": "svelte",
+   "version": "5.28.0",
+   "published": "2025-04-18",
+   "month": "2025-04",
+   "id": "r0331"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prisma",
+   "version": "6.6.0",
+   "published": "2025-04-08",
+   "month": "2025-04",
+   "id": "r0332"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "9.24.0",
+   "published": "2025-04-04",
+   "month": "2025-04",
+   "id": "r0333"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "4.93.0",
+   "published": "2025-04-08",
+   "month": "2025-04",
+   "id": "r0334"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "5.27.0",
+   "published": "2025-04-25",
+   "month": "2025-04",
+   "id": "r0335"
+  },
+  {
+   "eco": "npm",
+   "pkg": "storybook",
+   "version": "9.0.0",
+   "published": "2025-05-28",
+   "month": "2025-05",
+   "id": "r0336"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "4.101.0",
+   "published": "2025-05-21",
+   "month": "2025-05",
+   "id": "r0337"
+  },
+  {
+   "eco": "npm",
+   "pkg": "svelte",
+   "version": "5.31.0",
+   "published": "2025-05-19",
+   "month": "2025-05",
+   "id": "r0338"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "0.52.0",
+   "published": "2025-05-22",
+   "month": "2025-05",
+   "id": "r0339"
+  },
+  {
+   "eco": "npm",
+   "pkg": "puppeteer",
+   "version": "24.9.0",
+   "published": "2025-05-20",
+   "month": "2025-05",
+   "id": "r0340"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "36.1.0",
+   "published": "2025-05-02",
+   "month": "2025-05",
+   "id": "r0341"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "huggingface-hub",
+   "version": "0.31.0",
+   "published": "2025-05-07",
+   "month": "2025-05",
+   "id": "r0342"
+  },
+  {
+   "eco": "npm",
+   "pkg": "react-router",
+   "version": "7.6.0",
+   "published": "2025-05-08",
+   "month": "2025-05",
+   "id": "r0343"
+  },
+  {
+   "eco": "npm",
+   "pkg": "astro",
+   "version": "5.8.0",
+   "published": "2025-05-22",
+   "month": "2025-05",
+   "id": "r0344"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "setuptools",
+   "version": "80.8.0",
+   "published": "2025-05-20",
+   "month": "2025-05",
+   "id": "r0345"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "accelerate",
+   "version": "1.7.0",
+   "published": "2025-05-15",
+   "month": "2025-05",
+   "id": "r0346"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "9.26.0",
+   "published": "2025-05-02",
+   "month": "2025-05",
+   "id": "r0347"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "openai",
+   "version": "1.88.0",
+   "published": "2025-06-17",
+   "month": "2025-06",
+   "id": "r0348"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "35.6.0",
+   "published": "2025-06-27",
+   "month": "2025-06",
+   "id": "r0349"
+  },
+  {
+   "eco": "npm",
+   "pkg": "fastify",
+   "version": "5.4.0",
+   "published": "2025-06-12",
+   "month": "2025-06",
+   "id": "r0350"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "diffusers",
+   "version": "0.34.0",
+   "published": "2025-06-24",
+   "month": "2025-06",
+   "id": "r0351"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prettier",
+   "version": "3.6.0",
+   "published": "2025-06-23",
+   "month": "2025-06",
+   "id": "r0352"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@biomejs/biome",
+   "version": "2.0.0",
+   "published": "2025-06-17",
+   "month": "2025-06",
+   "id": "r0353"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vitest",
+   "version": "3.2.0",
+   "published": "2025-06-02",
+   "month": "2025-06",
+   "id": "r0354"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "10.12.0",
+   "published": "2025-06-08",
+   "month": "2025-06",
+   "id": "r0355"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "huggingface-hub",
+   "version": "0.33.0",
+   "published": "2025-06-11",
+   "month": "2025-06",
+   "id": "r0356"
+  },
+  {
+   "eco": "npm",
+   "pkg": "jest",
+   "version": "30.0.0",
+   "published": "2025-06-10",
+   "month": "2025-06",
+   "id": "r0357"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "5.35.0",
+   "published": "2025-06-27",
+   "month": "2025-06",
+   "id": "r0358"
+  },
+  {
+   "eco": "npm",
+   "pkg": "puppeteer",
+   "version": "24.11.0",
+   "published": "2025-06-27",
+   "month": "2025-06",
+   "id": "r0359"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@sveltejs/kit",
+   "version": "2.25.0",
+   "published": "2025-07-17",
+   "month": "2025-07",
+   "id": "r0360"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "openai",
+   "version": "1.98.0",
+   "published": "2025-07-30",
+   "month": "2025-07",
+   "id": "r0361"
+  },
+  {
+   "eco": "npm",
+   "pkg": "zod",
+   "version": "4.0.0",
+   "published": "2025-07-09",
+   "month": "2025-07",
+   "id": "r0362"
+  },
+  {
+   "eco": "npm",
+   "pkg": "webpack",
+   "version": "5.100.0",
+   "published": "2025-07-09",
+   "month": "2025-07",
+   "id": "r0363"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "uv",
+   "version": "0.8.0",
+   "published": "2025-07-17",
+   "month": "2025-07",
+   "id": "r0364"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "dask",
+   "version": "2025.7.0",
+   "published": "2025-07-14",
+   "month": "2025-07",
+   "id": "r0365"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "keras",
+   "version": "3.11.0",
+   "published": "2025-07-30",
+   "month": "2025-07",
+   "id": "r0366"
+  },
+  {
+   "eco": "npm",
+   "pkg": "astro",
+   "version": "5.12.0",
+   "published": "2025-07-17",
+   "month": "2025-07",
+   "id": "r0367"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prisma",
+   "version": "6.12.0",
+   "published": "2025-07-15",
+   "month": "2025-07",
+   "id": "r0368"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "37.2.0",
+   "published": "2025-07-02",
+   "month": "2025-07",
+   "id": "r0369"
+  },
+  {
+   "eco": "npm",
+   "pkg": "puppeteer",
+   "version": "24.12.0",
+   "published": "2025-07-07",
+   "month": "2025-07",
+   "id": "r0370"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "peft",
+   "version": "0.16.0",
+   "published": "2025-07-03",
+   "month": "2025-07",
+   "id": "r0371"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "5.40.0",
+   "published": "2025-08-04",
+   "month": "2025-08",
+   "id": "r0372"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "0.62.0",
+   "published": "2025-08-08",
+   "month": "2025-08",
+   "id": "r0373"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@biomejs/biome",
+   "version": "2.2.0",
+   "published": "2025-08-14",
+   "month": "2025-08",
+   "id": "r0374"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "10.15.0",
+   "published": "2025-08-19",
+   "month": "2025-08",
+   "id": "r0375"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "torch",
+   "version": "2.8.0",
+   "published": "2025-08-06",
+   "month": "2025-08",
+   "id": "r0376"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@sveltejs/kit",
+   "version": "2.32.0",
+   "published": "2025-08-18",
+   "month": "2025-08",
+   "id": "r0377"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "accelerate",
+   "version": "1.10.0",
+   "published": "2025-08-07",
+   "month": "2025-08",
+   "id": "r0378"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "transformers",
+   "version": "4.55.0",
+   "published": "2025-08-05",
+   "month": "2025-08",
+   "id": "r0379"
+  },
+  {
+   "eco": "npm",
+   "pkg": "mongoose",
+   "version": "8.18.0",
+   "published": "2025-08-22",
+   "month": "2025-08",
+   "id": "r0380"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "37.4.0",
+   "published": "2025-08-27",
+   "month": "2025-08",
+   "id": "r0381"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "peft",
+   "version": "0.17.0",
+   "published": "2025-08-01",
+   "month": "2025-08",
+   "id": "r0382"
+  },
+  {
+   "eco": "npm",
+   "pkg": "rollup",
+   "version": "4.48.0",
+   "published": "2025-08-23",
+   "month": "2025-08",
+   "id": "r0383"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "fastapi",
+   "version": "0.118.0",
+   "published": "2025-09-29",
+   "month": "2025-09",
+   "id": "r0384"
+  },
+  {
+   "eco": "npm",
+   "pkg": "puppeteer",
+   "version": "24.20.0",
+   "published": "2025-09-10",
+   "month": "2025-09",
+   "id": "r0385"
+  },
+  {
+   "eco": "npm",
+   "pkg": "svelte",
+   "version": "5.39.0",
+   "published": "2025-09-17",
+   "month": "2025-09",
+   "id": "r0386"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "poetry",
+   "version": "2.2.0",
+   "published": "2025-09-14",
+   "month": "2025-09",
+   "id": "r0387"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "38.1.0",
+   "published": "2025-09-10",
+   "month": "2025-09",
+   "id": "r0388"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "5.22.0",
+   "published": "2025-09-19",
+   "month": "2025-09",
+   "id": "r0389"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "polars",
+   "version": "1.33.0",
+   "published": "2025-09-01",
+   "month": "2025-09",
+   "id": "r0390"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "9.35.0",
+   "published": "2025-09-05",
+   "month": "2025-09",
+   "id": "r0391"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "0.65.0",
+   "published": "2025-09-02",
+   "month": "2025-09",
+   "id": "r0392"
+  },
+  {
+   "eco": "npm",
+   "pkg": "fastify",
+   "version": "5.6.0",
+   "published": "2025-09-05",
+   "month": "2025-09",
+   "id": "r0393"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "5.47.0",
+   "published": "2025-09-23",
+   "month": "2025-09",
+   "id": "r0394"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@angular/core",
+   "version": "20.3.0",
+   "published": "2025-09-10",
+   "month": "2025-09",
+   "id": "r0395"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "accelerate",
+   "version": "1.11.0",
+   "published": "2025-10-20",
+   "month": "2025-10",
+   "id": "r0396"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "6.3.0",
+   "published": "2025-10-10",
+   "month": "2025-10",
+   "id": "r0397"
+  },
+  {
+   "eco": "npm",
+   "pkg": "three",
+   "version": "0.181.0",
+   "published": "2025-10-31",
+   "month": "2025-10",
+   "id": "r0398"
+  },
+  {
+   "eco": "npm",
+   "pkg": "svelte",
+   "version": "5.42.0",
+   "published": "2025-10-25",
+   "month": "2025-10",
+   "id": "r0399"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@anthropic-ai/sdk",
+   "version": "0.67.0",
+   "published": "2025-10-16",
+   "month": "2025-10",
+   "id": "r0400"
+  },
+  {
+   "eco": "npm",
+   "pkg": "turbo",
+   "version": "2.6.0",
+   "published": "2025-10-31",
+   "month": "2025-10",
+   "id": "r0401"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vitest",
+   "version": "4.0.0",
+   "published": "2025-10-22",
+   "month": "2025-10",
+   "id": "r0402"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "fastapi",
+   "version": "0.119.0",
+   "published": "2025-10-11",
+   "month": "2025-10",
+   "id": "r0403"
+  },
+  {
+   "eco": "npm",
+   "pkg": "mongoose",
+   "version": "8.19.0",
+   "published": "2025-10-02",
+   "month": "2025-10",
+   "id": "r0404"
+  },
+  {
+   "eco": "npm",
+   "pkg": "axios",
+   "version": "1.13.0",
+   "published": "2025-10-27",
+   "month": "2025-10",
+   "id": "r0405"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "huggingface-hub",
+   "version": "0.36.0",
+   "published": "2025-10-23",
+   "month": "2025-10",
+   "id": "r0406"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "polars",
+   "version": "1.35.0",
+   "published": "2025-10-26",
+   "month": "2025-10",
+   "id": "r0407"
+  },
+  {
+   "eco": "npm",
+   "pkg": "svelte",
+   "version": "5.45.0",
+   "published": "2025-11-26",
+   "month": "2025-11",
+   "id": "r0408"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "dask",
+   "version": "2025.11.0",
+   "published": "2025-11-06",
+   "month": "2025-11",
+   "id": "r0409"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "0.73.0",
+   "published": "2025-11-14",
+   "month": "2025-11",
+   "id": "r0410"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "10.21.0",
+   "published": "2025-11-09",
+   "month": "2025-11",
+   "id": "r0411"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@playwright/test",
+   "version": "1.57.0",
+   "published": "2025-11-25",
+   "month": "2025-11",
+   "id": "r0412"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@angular/core",
+   "version": "21.0.0",
+   "published": "2025-11-19",
+   "month": "2025-11",
+   "id": "r0413"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "datasets",
+   "version": "4.4.0",
+   "published": "2025-11-04",
+   "month": "2025-11",
+   "id": "r0414"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "fastapi",
+   "version": "0.123.0",
+   "published": "2025-11-30",
+   "month": "2025-11",
+   "id": "r0415"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@anthropic-ai/sdk",
+   "version": "0.69.0",
+   "published": "2025-11-14",
+   "month": "2025-11",
+   "id": "r0416"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prettier",
+   "version": "3.7.0",
+   "published": "2025-11-27",
+   "month": "2025-11",
+   "id": "r0417"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "peft",
+   "version": "0.18.0",
+   "published": "2025-11-13",
+   "month": "2025-11",
+   "id": "r0418"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "openai",
+   "version": "2.8.0",
+   "published": "2025-11-13",
+   "month": "2025-11",
+   "id": "r0419"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "6.1.0",
+   "published": "2025-12-09",
+   "month": "2025-12",
+   "id": "r0420"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "uvicorn",
+   "version": "0.40.0",
+   "published": "2025-12-21",
+   "month": "2025-12",
+   "id": "r0421"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "10.26.0",
+   "published": "2025-12-15",
+   "month": "2025-12",
+   "id": "r0422"
+  },
+  {
+   "eco": "npm",
+   "pkg": "next",
+   "version": "16.1.0",
+   "published": "2025-12-18",
+   "month": "2025-12",
+   "id": "r0423"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "langchain",
+   "version": "1.2.0",
+   "published": "2025-12-15",
+   "month": "2025-12",
+   "id": "r0424"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "vllm",
+   "version": "0.12.0",
+   "published": "2025-12-03",
+   "month": "2025-12",
+   "id": "r0425"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "openai",
+   "version": "2.13.0",
+   "published": "2025-12-16",
+   "month": "2025-12",
+   "id": "r0426"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "streamlit",
+   "version": "1.52.0",
+   "published": "2025-12-04",
+   "month": "2025-12",
+   "id": "r0427"
+  },
+  {
+   "eco": "npm",
+   "pkg": "zod",
+   "version": "4.3.0",
+   "published": "2025-12-31",
+   "month": "2025-12",
+   "id": "r0428"
+  },
+  {
+   "eco": "npm",
+   "pkg": "react-router",
+   "version": "7.11.0",
+   "published": "2025-12-17",
+   "month": "2025-12",
+   "id": "r0429"
+  },
+  {
+   "eco": "npm",
+   "pkg": "webpack",
+   "version": "5.104.0",
+   "published": "2025-12-16",
+   "month": "2025-12",
+   "id": "r0430"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vite",
+   "version": "7.3.0",
+   "published": "2025-12-15",
+   "month": "2025-12",
+   "id": "r0431"
+  },
+  {
+   "eco": "npm",
+   "pkg": "jquery",
+   "version": "4.0.0",
+   "published": "2026-01-18",
+   "month": "2026-01",
+   "id": "r0432"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "scipy",
+   "version": "1.17.0",
+   "published": "2026-01-10",
+   "month": "2026-01",
+   "id": "r0433"
+  },
+  {
+   "eco": "npm",
+   "pkg": "svelte",
+   "version": "5.48.0",
+   "published": "2026-01-22",
+   "month": "2026-01",
+   "id": "r0434"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "dask",
+   "version": "2026.1.0",
+   "published": "2026-01-16",
+   "month": "2026-01",
+   "id": "r0435"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "6.16.0",
+   "published": "2026-01-09",
+   "month": "2026-01",
+   "id": "r0436"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@playwright/test",
+   "version": "1.58.0",
+   "published": "2026-01-23",
+   "month": "2026-01",
+   "id": "r0437"
+  },
+  {
+   "eco": "npm",
+   "pkg": "nuxt",
+   "version": "3.21.0",
+   "published": "2026-01-22",
+   "month": "2026-01",
+   "id": "r0438"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "6.5.0",
+   "published": "2026-01-28",
+   "month": "2026-01",
+   "id": "r0439"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "vllm",
+   "version": "0.15.0",
+   "published": "2026-01-29",
+   "month": "2026-01",
+   "id": "r0440"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "huggingface-hub",
+   "version": "1.3.0",
+   "published": "2026-01-09",
+   "month": "2026-01",
+   "id": "r0441"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pandas",
+   "version": "3.0.0",
+   "published": "2026-01-21",
+   "month": "2026-01",
+   "id": "r0442"
+  },
+  {
+   "eco": "npm",
+   "pkg": "astro",
+   "version": "5.17.0",
+   "published": "2026-01-29",
+   "month": "2026-01",
+   "id": "r0443"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "datasets",
+   "version": "4.6.0",
+   "published": "2026-02-25",
+   "month": "2026-02",
+   "id": "r0444"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "6.24.0",
+   "published": "2026-02-24",
+   "month": "2026-02",
+   "id": "r0445"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "setuptools",
+   "version": "82.0.0",
+   "published": "2026-02-08",
+   "month": "2026-02",
+   "id": "r0446"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "0.80.0",
+   "published": "2026-02-17",
+   "month": "2026-02",
+   "id": "r0447"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@angular/core",
+   "version": "21.2.0",
+   "published": "2026-02-25",
+   "month": "2026-02",
+   "id": "r0448"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "vllm",
+   "version": "0.16.0",
+   "published": "2026-02-26",
+   "month": "2026-02",
+   "id": "r0449"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@biomejs/biome",
+   "version": "2.4.0",
+   "published": "2026-02-15",
+   "month": "2026-02",
+   "id": "r0450"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@anthropic-ai/sdk",
+   "version": "0.76.0",
+   "published": "2026-02-18",
+   "month": "2026-02",
+   "id": "r0451"
+  },
+  {
+   "eco": "npm",
+   "pkg": "hono",
+   "version": "4.12.0",
+   "published": "2026-02-19",
+   "month": "2026-02",
+   "id": "r0452"
+  },
+  {
+   "eco": "npm",
+   "pkg": "rollup",
+   "version": "2.80.0",
+   "published": "2026-02-22",
+   "month": "2026-02",
+   "id": "r0453"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "40.4.0",
+   "published": "2026-02-11",
+   "month": "2026-02",
+   "id": "r0454"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "10.0.0",
+   "published": "2026-02-06",
+   "month": "2026-02",
+   "id": "r0455"
+  },
+  {
+   "eco": "npm",
+   "pkg": "puppeteer",
+   "version": "24.39.0",
+   "published": "2026-03-10",
+   "month": "2026-03",
+   "id": "r0456"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@anthropic-ai/sdk",
+   "version": "0.79.0",
+   "published": "2026-03-16",
+   "month": "2026-03",
+   "id": "r0457"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "0.86.0",
+   "published": "2026-03-18",
+   "month": "2026-03",
+   "id": "r0458"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "vllm",
+   "version": "0.18.0",
+   "published": "2026-03-20",
+   "month": "2026-03",
+   "id": "r0459"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "requests",
+   "version": "2.33.0",
+   "published": "2026-03-25",
+   "month": "2026-03",
+   "id": "r0460"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@sveltejs/kit",
+   "version": "2.54.0",
+   "published": "2026-03-11",
+   "month": "2026-03",
+   "id": "r0461"
+  },
+  {
+   "eco": "npm",
+   "pkg": "astro",
+   "version": "6.0.0",
+   "published": "2026-03-10",
+   "month": "2026-03",
+   "id": "r0462"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "40.8.0",
+   "published": "2026-03-05",
+   "month": "2026-03",
+   "id": "r0463"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "mypy",
+   "version": "1.20.0",
+   "published": "2026-03-31",
+   "month": "2026-03",
+   "id": "r0464"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vite",
+   "version": "8.0.0",
+   "published": "2026-03-12",
+   "month": "2026-03",
+   "id": "r0465"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "streamlit",
+   "version": "1.55.0",
+   "published": "2026-03-03",
+   "month": "2026-03",
+   "id": "r0466"
+  },
+  {
+   "eco": "npm",
+   "pkg": "svelte",
+   "version": "5.54.0",
+   "published": "2026-03-17",
+   "month": "2026-03",
+   "id": "r0467"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "huggingface-hub",
+   "version": "1.13.0",
+   "published": "2026-04-30",
+   "month": "2026-04",
+   "id": "r0468"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "transformers",
+   "version": "5.7.0",
+   "published": "2026-04-28",
+   "month": "2026-04",
+   "id": "r0469"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "openai",
+   "version": "2.31.0",
+   "published": "2026-04-08",
+   "month": "2026-04",
+   "id": "r0470"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "fastapi",
+   "version": "0.136.0",
+   "published": "2026-04-16",
+   "month": "2026-04",
+   "id": "r0471"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prisma",
+   "version": "7.7.0",
+   "published": "2026-04-07",
+   "month": "2026-04",
+   "id": "r0472"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "uvicorn",
+   "version": "0.43.0",
+   "published": "2026-04-03",
+   "month": "2026-04",
+   "id": "r0473"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@anthropic-ai/sdk",
+   "version": "0.85.0",
+   "published": "2026-04-07",
+   "month": "2026-04",
+   "id": "r0474"
+  },
+  {
+   "eco": "npm",
+   "pkg": "three",
+   "version": "0.184.0",
+   "published": "2026-04-16",
+   "month": "2026-04",
+   "id": "r0475"
+  },
+  {
+   "eco": "npm",
+   "pkg": "axios",
+   "version": "0.31.0",
+   "published": "2026-04-12",
+   "month": "2026-04",
+   "id": "r0476"
+  },
+  {
+   "eco": "npm",
+   "pkg": "webpack",
+   "version": "5.106.0",
+   "published": "2026-04-08",
+   "month": "2026-04",
+   "id": "r0477"
+  },
+  {
+   "eco": "npm",
+   "pkg": "mongoose",
+   "version": "9.5.0",
+   "published": "2026-04-20",
+   "month": "2026-04",
+   "id": "r0478"
+  },
+  {
+   "eco": "npm",
+   "pkg": "react-router",
+   "version": "7.14.0",
+   "published": "2026-04-02",
+   "month": "2026-04",
+   "id": "r0479"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "11.2.0",
+   "published": "2026-05-20",
+   "month": "2026-05",
+   "id": "r0480"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "6.36.0",
+   "published": "2026-05-04",
+   "month": "2026-05",
+   "id": "r0481"
+  },
+  {
+   "eco": "npm",
+   "pkg": "puppeteer",
+   "version": "24.43.0",
+   "published": "2026-05-06",
+   "month": "2026-05",
+   "id": "r0482"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "streamlit",
+   "version": "1.58.0",
+   "published": "2026-05-28",
+   "month": "2026-05",
+   "id": "r0483"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "0.104.0",
+   "published": "2026-05-21",
+   "month": "2026-05",
+   "id": "r0484"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "41.5.0",
+   "published": "2026-05-02",
+   "month": "2026-05",
+   "id": "r0485"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "10.3.0",
+   "published": "2026-05-01",
+   "month": "2026-05",
+   "id": "r0486"
+  },
+  {
+   "eco": "npm",
+   "pkg": "svelte",
+   "version": "5.56.0",
+   "published": "2026-05-29",
+   "month": "2026-05",
+   "id": "r0487"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "transformers",
+   "version": "5.8.0",
+   "published": "2026-05-05",
+   "month": "2026-05",
+   "id": "r0488"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@anthropic-ai/sdk",
+   "version": "0.97.0",
+   "published": "2026-05-19",
+   "month": "2026-05",
+   "id": "r0489"
+  },
+  {
+   "eco": "npm",
+   "pkg": "react-router",
+   "version": "7.16.0",
+   "published": "2026-05-28",
+   "month": "2026-05",
+   "id": "r0490"
+  },
+  {
+   "eco": "npm",
+   "pkg": "axios",
+   "version": "1.16.0",
+   "published": "2026-05-02",
+   "month": "2026-05",
+   "id": "r0491"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "42.4.0",
+   "published": "2026-06-09",
+   "month": "2026-06",
+   "id": "r0492"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@sveltejs/kit",
+   "version": "2.62.0",
+   "published": "2026-06-02",
+   "month": "2026-06",
+   "id": "r0493"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pytest",
+   "version": "9.1.0",
+   "published": "2026-06-13",
+   "month": "2026-06",
+   "id": "r0494"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@anthropic-ai/sdk",
+   "version": "0.108.0",
+   "published": "2026-06-30",
+   "month": "2026-06",
+   "id": "r0495"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "vllm",
+   "version": "0.23.0",
+   "published": "2026-06-13",
+   "month": "2026-06",
+   "id": "r0496"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "0.109.0",
+   "published": "2026-06-09",
+   "month": "2026-06",
+   "id": "r0497"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@playwright/test",
+   "version": "1.61.0",
+   "published": "2026-06-15",
+   "month": "2026-06",
+   "id": "r0498"
+  },
+  {
+   "eco": "npm",
+   "pkg": "langchain",
+   "version": "1.5.0",
+   "published": "2026-06-18",
+   "month": "2026-06",
+   "id": "r0499"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "6.43.0",
+   "published": "2026-06-16",
+   "month": "2026-06",
+   "id": "r0500"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "transformers",
+   "version": "5.11.0",
+   "published": "2026-06-10",
+   "month": "2026-06",
+   "id": "r0501"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "dask",
+   "version": "2026.6.0",
+   "published": "2026-06-11",
+   "month": "2026-06",
+   "id": "r0502"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "fastapi",
+   "version": "0.137.0",
+   "published": "2026-06-14",
+   "month": "2026-06",
+   "id": "r0503"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "mypy",
+   "version": "2.3.0",
+   "published": "2026-07-13",
+   "month": "2026-07",
+   "id": "r0504"
+  },
+  {
+   "eco": "npm",
+   "pkg": "mongoose",
+   "version": "9.9.0",
+   "published": "2026-07-30",
+   "month": "2026-07",
+   "id": "r0505"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "openai",
+   "version": "2.45.0",
+   "published": "2026-07-09",
+   "month": "2026-07",
+   "id": "r0506"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "uvicorn",
+   "version": "0.50.0",
+   "published": "2026-07-04",
+   "month": "2026-07",
+   "id": "r0507"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "0.118.0",
+   "published": "2026-07-22",
+   "month": "2026-07",
+   "id": "r0508"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@playwright/test",
+   "version": "1.62.0",
+   "published": "2026-07-24",
+   "month": "2026-07",
+   "id": "r0509"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "uv",
+   "version": "0.12.0",
+   "published": "2026-07-28",
+   "month": "2026-07",
+   "id": "r0510"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "41.10.0",
+   "published": "2026-07-04",
+   "month": "2026-07",
+   "id": "r0511"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "10.8.0",
+   "published": "2026-07-24",
+   "month": "2026-07",
+   "id": "r0512"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "streamlit",
+   "version": "1.60.0",
+   "published": "2026-07-21",
+   "month": "2026-07",
+   "id": "r0513"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prisma",
+   "version": "7.9.0",
+   "published": "2026-07-20",
+   "month": "2026-07",
+   "id": "r0514"
+  },
+  {
+   "eco": "npm",
+   "pkg": "typescript",
+   "version": "7.0.2",
+   "published": "2026-07-08",
+   "month": "2026-07",
+   "id": "r0515"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "openai",
+   "version": "3.1.0",
+   "published": "2026-08-14",
+   "month": "2026-08",
+   "id": "r0516"
+  },
+  {
+   "eco": "npm",
+   "pkg": "next",
+   "version": "16.3.0",
+   "published": "2026-08-03",
+   "month": "2026-08",
+   "id": "r0517"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "11.23.0",
+   "published": "2026-08-23",
+   "month": "2026-08",
+   "id": "r0518"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@anthropic-ai/sdk",
+   "version": "0.116.0",
+   "published": "2026-08-07",
+   "month": "2026-08",
+   "id": "r0519"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@nestjs/core",
+   "version": "11.2.0",
+   "published": "2026-08-14",
+   "month": "2026-08",
+   "id": "r0520"
+  },
+  {
+   "eco": "npm",
+   "pkg": "jest",
+   "version": "30.5.0",
+   "published": "2026-08-28",
+   "month": "2026-08",
+   "id": "r0521"
+  },
+  {
+   "eco": "npm",
+   "pkg": "fastify",
+   "version": "5.12.0",
+   "published": "2026-08-13",
+   "month": "2026-08",
+   "id": "r0522"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "dask",
+   "version": "2026.8.0",
+   "published": "2026-08-24",
+   "month": "2026-08",
+   "id": "r0523"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "42.9.0",
+   "published": "2026-08-11",
+   "month": "2026-08",
+   "id": "r0524"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "0.123.0",
+   "published": "2026-08-19",
+   "month": "2026-08",
+   "id": "r0525"
+  },
+  {
+   "eco": "npm",
+   "pkg": "bun-types",
+   "version": "1.4.0",
+   "published": "2026-08-20",
+   "month": "2026-08",
+   "id": "r0526"
+  },
+  {
+   "eco": "npm",
+   "pkg": "puppeteer",
+   "version": "25.7.0",
+   "published": "2026-08-13",
+   "month": "2026-08",
+   "id": "r0527"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "openai",
+   "version": "3.9.0",
+   "published": "2026-09-08",
+   "month": "2026-09",
+   "id": "r0528"
+  },
+  {
+   "eco": "npm",
+   "pkg": "puppeteer",
+   "version": "25.11.0",
+   "published": "2026-09-14",
+   "month": "2026-09",
+   "id": "r0529"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@anthropic-ai/sdk",
+   "version": "0.124.0",
+   "published": "2026-09-04",
+   "month": "2026-09",
+   "id": "r0530"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "11.27.0",
+   "published": "2026-09-12",
+   "month": "2026-09",
+   "id": "r0531"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "transformers",
+   "version": "5.17.0",
+   "published": "2026-09-09",
+   "month": "2026-09",
+   "id": "r0532"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "6.27.0",
+   "published": "2026-09-11",
+   "month": "2026-09",
+   "id": "r0533"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "44.2.0",
+   "published": "2026-09-04",
+   "month": "2026-09",
+   "id": "r0534"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "1.11.0",
+   "published": "2026-09-30",
+   "month": "2026-09",
+   "id": "r0535"
+  },
+  {
+   "eco": "npm",
+   "pkg": "three",
+   "version": "0.186.0",
+   "published": "2026-09-08",
+   "month": "2026-09",
+   "id": "r0536"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "vllm",
+   "version": "0.29.0",
+   "published": "2026-09-09",
+   "month": "2026-09",
+   "id": "r0537"
+  },
+  {
+   "eco": "npm",
+   "pkg": "react",
+   "version": "19.3.0",
+   "published": "2026-09-09",
+   "month": "2026-09",
+   "id": "r0538"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "streamlit",
+   "version": "1.64.0",
+   "published": "2026-09-15",
+   "month": "2026-09",
+   "id": "r0539"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "huggingface-hub",
+   "version": "2.2.0",
+   "published": "2026-10-08",
+   "month": "2026-10",
+   "id": "r0540"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "7.28.0",
+   "published": "2026-10-04",
+   "month": "2026-10",
+   "id": "r0541"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "fastapi",
+   "version": "0.143.0",
+   "published": "2026-10-08",
+   "month": "2026-10",
+   "id": "r0542"
+  },
+  {
+   "eco": "npm",
+   "pkg": "astro",
+   "version": "7.4.0",
+   "published": "2026-10-15",
+   "month": "2026-10",
+   "id": "r0543"
+  },
+  {
+   "eco": "npm",
+   "pkg": "nuxt",
+   "version": "4.6.0",
+   "published": "2026-10-05",
+   "month": "2026-10",
+   "id": "r0544"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "black",
+   "version": "26.10.0",
+   "published": "2026-10-04",
+   "month": "2026-10",
+   "id": "r0545"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "1.14.0",
+   "published": "2026-10-14",
+   "month": "2026-10",
+   "id": "r0546"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "diffusers",
+   "version": "0.41.0",
+   "published": "2026-10-06",
+   "month": "2026-10",
+   "id": "r0547"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "vllm",
+   "version": "0.31.0",
+   "published": "2026-10-05",
+   "month": "2026-10",
+   "id": "r0548"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "12.12.0",
+   "published": "2026-10-10",
+   "month": "2026-10",
+   "id": "r0549"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "polars",
+   "version": "2.0.0",
+   "published": "2026-10-06",
+   "month": "2026-10",
+   "id": "r0550"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "10.13.0",
+   "published": "2026-10-16",
+   "month": "2026-10",
+   "id": "r0551"
+  }
+ ],
+ "fake": [
+  {
+   "eco": "npm",
+   "pkg": "react",
+   "version": "20.0.0",
+   "kind": "future",
+   "id": "f0000"
+  },
+  {
+   "eco": "npm",
+   "pkg": "react",
+   "version": "19.4.0",
+   "kind": "future",
+   "id": "f0001"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vite",
+   "version": "9.0.0",
+   "kind": "future",
+   "id": "f0002"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vite",
+   "version": "8.4.0",
+   "kind": "future",
+   "id": "f0003"
+  },
+  {
+   "eco": "npm",
+   "pkg": "next",
+   "version": "17.0.0",
+   "kind": "future",
+   "id": "f0004"
+  },
+  {
+   "eco": "npm",
+   "pkg": "next",
+   "version": "16.5.0",
+   "kind": "future",
+   "id": "f0005"
+  },
+  {
+   "eco": "npm",
+   "pkg": "typescript",
+   "version": "8.0.0",
+   "kind": "future",
+   "id": "f0006"
+  },
+  {
+   "eco": "npm",
+   "pkg": "typescript",
+   "version": "7.1.0",
+   "kind": "future",
+   "id": "f0007"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "11.0.0",
+   "kind": "future",
+   "id": "f0008"
+  },
+  {
+   "eco": "npm",
+   "pkg": "eslint",
+   "version": "10.14.0",
+   "kind": "future",
+   "id": "f0009"
+  },
+  {
+   "eco": "npm",
+   "pkg": "webpack",
+   "version": "6.0.0",
+   "kind": "future",
+   "id": "f0010"
+  },
+  {
+   "eco": "npm",
+   "pkg": "webpack",
+   "version": "5.113.0",
+   "kind": "future",
+   "id": "f0011"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vue",
+   "version": "4.0.0",
+   "kind": "future",
+   "id": "f0012"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vue",
+   "version": "3.6.0",
+   "kind": "future",
+   "id": "f0013"
+  },
+  {
+   "eco": "npm",
+   "pkg": "svelte",
+   "version": "6.0.0",
+   "kind": "future",
+   "id": "f0014"
+  },
+  {
+   "eco": "npm",
+   "pkg": "svelte",
+   "version": "5.58.0",
+   "kind": "future",
+   "id": "f0015"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@angular/core",
+   "version": "23.0.0",
+   "kind": "future",
+   "id": "f0016"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@angular/core",
+   "version": "22.3.0",
+   "kind": "future",
+   "id": "f0017"
+  },
+  {
+   "eco": "npm",
+   "pkg": "express",
+   "version": "6.0.0",
+   "kind": "future",
+   "id": "f0018"
+  },
+  {
+   "eco": "npm",
+   "pkg": "express",
+   "version": "5.4.0",
+   "kind": "future",
+   "id": "f0019"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prisma",
+   "version": "8.0.0",
+   "kind": "future",
+   "id": "f0020"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prisma",
+   "version": "7.11.0",
+   "kind": "future",
+   "id": "f0021"
+  },
+  {
+   "eco": "npm",
+   "pkg": "tailwindcss",
+   "version": "5.0.0",
+   "kind": "future",
+   "id": "f0022"
+  },
+  {
+   "eco": "npm",
+   "pkg": "tailwindcss",
+   "version": "4.4.0",
+   "kind": "future",
+   "id": "f0023"
+  },
+  {
+   "eco": "npm",
+   "pkg": "jest",
+   "version": "31.0.0",
+   "kind": "future",
+   "id": "f0024"
+  },
+  {
+   "eco": "npm",
+   "pkg": "jest",
+   "version": "30.6.0",
+   "kind": "future",
+   "id": "f0025"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vitest",
+   "version": "6.0.0",
+   "kind": "future",
+   "id": "f0026"
+  },
+  {
+   "eco": "npm",
+   "pkg": "vitest",
+   "version": "5.1.0",
+   "kind": "future",
+   "id": "f0027"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@playwright/test",
+   "version": "2.0.0",
+   "kind": "future",
+   "id": "f0028"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@playwright/test",
+   "version": "1.65.0",
+   "kind": "future",
+   "id": "f0029"
+  },
+  {
+   "eco": "npm",
+   "pkg": "astro",
+   "version": "8.0.0",
+   "kind": "future",
+   "id": "f0030"
+  },
+  {
+   "eco": "npm",
+   "pkg": "astro",
+   "version": "7.5.0",
+   "kind": "future",
+   "id": "f0031"
+  },
+  {
+   "eco": "npm",
+   "pkg": "nuxt",
+   "version": "5.0.0",
+   "kind": "future",
+   "id": "f0032"
+  },
+  {
+   "eco": "npm",
+   "pkg": "nuxt",
+   "version": "4.7.0",
+   "kind": "future",
+   "id": "f0033"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "13.0.0",
+   "kind": "future",
+   "id": "f0034"
+  },
+  {
+   "eco": "npm",
+   "pkg": "pnpm",
+   "version": "12.15.0",
+   "kind": "future",
+   "id": "f0035"
+  },
+  {
+   "eco": "npm",
+   "pkg": "turbo",
+   "version": "3.0.0",
+   "kind": "future",
+   "id": "f0036"
+  },
+  {
+   "eco": "npm",
+   "pkg": "turbo",
+   "version": "2.12.0",
+   "kind": "future",
+   "id": "f0037"
+  },
+  {
+   "eco": "npm",
+   "pkg": "esbuild",
+   "version": "1.0.0",
+   "kind": "future",
+   "id": "f0038"
+  },
+  {
+   "eco": "npm",
+   "pkg": "esbuild",
+   "version": "0.29.0",
+   "kind": "future",
+   "id": "f0039"
+  },
+  {
+   "eco": "npm",
+   "pkg": "rollup",
+   "version": "5.0.0",
+   "kind": "future",
+   "id": "f0040"
+  },
+  {
+   "eco": "npm",
+   "pkg": "rollup",
+   "version": "4.65.0",
+   "kind": "future",
+   "id": "f0041"
+  },
+  {
+   "eco": "npm",
+   "pkg": "axios",
+   "version": "2.0.0",
+   "kind": "future",
+   "id": "f0042"
+  },
+  {
+   "eco": "npm",
+   "pkg": "axios",
+   "version": "1.21.0",
+   "kind": "future",
+   "id": "f0043"
+  },
+  {
+   "eco": "npm",
+   "pkg": "zod",
+   "version": "5.0.0",
+   "kind": "future",
+   "id": "f0044"
+  },
+  {
+   "eco": "npm",
+   "pkg": "zod",
+   "version": "4.7.0",
+   "kind": "future",
+   "id": "f0045"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "45.0.0",
+   "kind": "future",
+   "id": "f0046"
+  },
+  {
+   "eco": "npm",
+   "pkg": "electron",
+   "version": "44.10.0",
+   "kind": "future",
+   "id": "f0047"
+  },
+  {
+   "eco": "npm",
+   "pkg": "storybook",
+   "version": "11.0.0",
+   "kind": "future",
+   "id": "f0048"
+  },
+  {
+   "eco": "npm",
+   "pkg": "storybook",
+   "version": "10.7.0",
+   "kind": "future",
+   "id": "f0049"
+  },
+  {
+   "eco": "npm",
+   "pkg": "react-router",
+   "version": "9.0.0",
+   "kind": "future",
+   "id": "f0050"
+  },
+  {
+   "eco": "npm",
+   "pkg": "react-router",
+   "version": "8.5.0",
+   "kind": "future",
+   "id": "f0051"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@sveltejs/kit",
+   "version": "4.0.0",
+   "kind": "future",
+   "id": "f0052"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@sveltejs/kit",
+   "version": "3.2.0",
+   "kind": "future",
+   "id": "f0053"
+  },
+  {
+   "eco": "npm",
+   "pkg": "drizzle-orm",
+   "version": "1.0.0",
+   "kind": "future",
+   "id": "f0054"
+  },
+  {
+   "eco": "npm",
+   "pkg": "drizzle-orm",
+   "version": "0.46.0",
+   "kind": "future",
+   "id": "f0055"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prettier",
+   "version": "4.0.0",
+   "kind": "future",
+   "id": "f0056"
+  },
+  {
+   "eco": "npm",
+   "pkg": "prettier",
+   "version": "3.10.0",
+   "kind": "future",
+   "id": "f0057"
+  },
+  {
+   "eco": "npm",
+   "pkg": "mongoose",
+   "version": "10.0.0",
+   "kind": "future",
+   "id": "f0058"
+  },
+  {
+   "eco": "npm",
+   "pkg": "mongoose",
+   "version": "9.12.0",
+   "kind": "future",
+   "id": "f0059"
+  },
+  {
+   "eco": "npm",
+   "pkg": "socket.io",
+   "version": "5.0.0",
+   "kind": "future",
+   "id": "f0060"
+  },
+  {
+   "eco": "npm",
+   "pkg": "socket.io",
+   "version": "4.9.0",
+   "kind": "future",
+   "id": "f0061"
+  },
+  {
+   "eco": "npm",
+   "pkg": "three",
+   "version": "1.0.0",
+   "kind": "future",
+   "id": "f0062"
+  },
+  {
+   "eco": "npm",
+   "pkg": "three",
+   "version": "0.187.0",
+   "kind": "future",
+   "id": "f0063"
+  },
+  {
+   "eco": "npm",
+   "pkg": "d3",
+   "version": "8.0.0",
+   "kind": "future",
+   "id": "f0064"
+  },
+  {
+   "eco": "npm",
+   "pkg": "d3",
+   "version": "7.10.0",
+   "kind": "future",
+   "id": "f0065"
+  },
+  {
+   "eco": "npm",
+   "pkg": "jquery",
+   "version": "5.0.0",
+   "kind": "future",
+   "id": "f0066"
+  },
+  {
+   "eco": "npm",
+   "pkg": "jquery",
+   "version": "4.1.0",
+   "kind": "future",
+   "id": "f0067"
+  },
+  {
+   "eco": "npm",
+   "pkg": "lodash-es",
+   "version": "5.0.0",
+   "kind": "future",
+   "id": "f0068"
+  },
+  {
+   "eco": "npm",
+   "pkg": "lodash-es",
+   "version": "4.19.0",
+   "kind": "future",
+   "id": "f0069"
+  },
+  {
+   "eco": "npm",
+   "pkg": "bun-types",
+   "version": "2.0.0",
+   "kind": "future",
+   "id": "f0070"
+  },
+  {
+   "eco": "npm",
+   "pkg": "bun-types",
+   "version": "1.5.0",
+   "kind": "future",
+   "id": "f0071"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@biomejs/biome",
+   "version": "3.0.0",
+   "kind": "future",
+   "id": "f0072"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@biomejs/biome",
+   "version": "2.6.0",
+   "kind": "future",
+   "id": "f0073"
+  },
+  {
+   "eco": "npm",
+   "pkg": "puppeteer",
+   "version": "26.0.0",
+   "kind": "future",
+   "id": "f0074"
+  },
+  {
+   "eco": "npm",
+   "pkg": "puppeteer",
+   "version": "25.15.0",
+   "kind": "future",
+   "id": "f0075"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "8.0.0",
+   "kind": "future",
+   "id": "f0076"
+  },
+  {
+   "eco": "npm",
+   "pkg": "openai",
+   "version": "7.39.0",
+   "kind": "future",
+   "id": "f0077"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@anthropic-ai/sdk",
+   "version": "1.0.0",
+   "kind": "future",
+   "id": "f0078"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@anthropic-ai/sdk",
+   "version": "0.136.0",
+   "kind": "future",
+   "id": "f0079"
+  },
+  {
+   "eco": "npm",
+   "pkg": "ai",
+   "version": "8.0.0",
+   "kind": "future",
+   "id": "f0080"
+  },
+  {
+   "eco": "npm",
+   "pkg": "ai",
+   "version": "7.1.0",
+   "kind": "future",
+   "id": "f0081"
+  },
+  {
+   "eco": "npm",
+   "pkg": "langchain",
+   "version": "2.0.0",
+   "kind": "future",
+   "id": "f0082"
+  },
+  {
+   "eco": "npm",
+   "pkg": "langchain",
+   "version": "1.6.0",
+   "kind": "future",
+   "id": "f0083"
+  },
+  {
+   "eco": "npm",
+   "pkg": "hono",
+   "version": "5.0.0",
+   "kind": "future",
+   "id": "f0084"
+  },
+  {
+   "eco": "npm",
+   "pkg": "hono",
+   "version": "4.14.0",
+   "kind": "future",
+   "id": "f0085"
+  },
+  {
+   "eco": "npm",
+   "pkg": "fastify",
+   "version": "6.0.0",
+   "kind": "future",
+   "id": "f0086"
+  },
+  {
+   "eco": "npm",
+   "pkg": "fastify",
+   "version": "5.13.0",
+   "kind": "future",
+   "id": "f0087"
+  },
+  {
+   "eco": "npm",
+   "pkg": "nestjs",
+   "version": "1.0.0",
+   "kind": "future",
+   "id": "f0088"
+  },
+  {
+   "eco": "npm",
+   "pkg": "nestjs",
+   "version": "0.1.0",
+   "kind": "future",
+   "id": "f0089"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@nestjs/core",
+   "version": "13.0.0",
+   "kind": "future",
+   "id": "f0090"
+  },
+  {
+   "eco": "npm",
+   "pkg": "@nestjs/core",
+   "version": "12.2.0",
+   "kind": "future",
+   "id": "f0091"
+  },
+  {
+   "eco": "npm",
+   "pkg": "remix",
+   "version": "4.0.0",
+   "kind": "future",
+   "id": "f0092"
+  },
+  {
+   "eco": "npm",
+   "pkg": "remix",
+   "version": "3.1.0",
+   "kind": "future",
+   "id": "f0093"
+  },
+  {
+   "eco": "npm",
+   "pkg": "solid-js",
+   "version": "2.0.0",
+   "kind": "future",
+   "id": "f0094"
+  },
+  {
+   "eco": "npm",
+   "pkg": "solid-js",
+   "version": "1.10.0",
+   "kind": "future",
+   "id": "f0095"
+  },
+  {
+   "eco": "npm",
+   "pkg": "preact",
+   "version": "12.0.0",
+   "kind": "future",
+   "id": "f0096"
+  },
+  {
+   "eco": "npm",
+   "pkg": "preact",
+   "version": "11.1.0",
+   "kind": "future",
+   "id": "f0097"
+  },
+  {
+   "eco": "npm",
+   "pkg": "mocha",
+   "version": "13.0.0",
+   "kind": "future",
+   "id": "f0098"
+  },
+  {
+   "eco": "npm",
+   "pkg": "mocha",
+   "version": "12.1.0",
+   "kind": "future",
+   "id": "f0099"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "django",
+   "version": "7.0.0",
+   "kind": "future",
+   "id": "f0100"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "django",
+   "version": "6.2.0",
+   "kind": "future",
+   "id": "f0101"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "flask",
+   "version": "4.0.0",
+   "kind": "future",
+   "id": "f0102"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "flask",
+   "version": "3.2.0",
+   "kind": "future",
+   "id": "f0103"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "fastapi",
+   "version": "1.0.0",
+   "kind": "future",
+   "id": "f0104"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "fastapi",
+   "version": "0.147.0",
+   "kind": "future",
+   "id": "f0105"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "numpy",
+   "version": "3.0.0",
+   "kind": "future",
+   "id": "f0106"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "numpy",
+   "version": "2.6.0",
+   "kind": "future",
+   "id": "f0107"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pandas",
+   "version": "4.0.0",
+   "kind": "future",
+   "id": "f0108"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pandas",
+   "version": "3.1.0",
+   "kind": "future",
+   "id": "f0109"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pydantic",
+   "version": "3.0.0",
+   "kind": "future",
+   "id": "f0110"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pydantic",
+   "version": "2.15.0",
+   "kind": "future",
+   "id": "f0111"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "requests",
+   "version": "3.0.0",
+   "kind": "future",
+   "id": "f0112"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "requests",
+   "version": "2.35.0",
+   "kind": "future",
+   "id": "f0113"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "torch",
+   "version": "3.0.0",
+   "kind": "future",
+   "id": "f0114"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "torch",
+   "version": "2.15.0",
+   "kind": "future",
+   "id": "f0115"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "transformers",
+   "version": "6.0.0",
+   "kind": "future",
+   "id": "f0116"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "transformers",
+   "version": "5.21.0",
+   "kind": "future",
+   "id": "f0117"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "langchain",
+   "version": "2.0.0",
+   "kind": "future",
+   "id": "f0118"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "langchain",
+   "version": "1.5.0",
+   "kind": "future",
+   "id": "f0119"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "scikit-learn",
+   "version": "2.0.0",
+   "kind": "future",
+   "id": "f0120"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "scikit-learn",
+   "version": "1.10.0",
+   "kind": "future",
+   "id": "f0121"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "sqlalchemy",
+   "version": "3.0.0",
+   "kind": "future",
+   "id": "f0122"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "sqlalchemy",
+   "version": "2.2.0",
+   "kind": "future",
+   "id": "f0123"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pytest",
+   "version": "10.0.0",
+   "kind": "future",
+   "id": "f0124"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pytest",
+   "version": "9.2.0",
+   "kind": "future",
+   "id": "f0125"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "ruff",
+   "version": "1.0.0",
+   "kind": "future",
+   "id": "f0126"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "ruff",
+   "version": "0.18.0",
+   "kind": "future",
+   "id": "f0127"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "uv",
+   "version": "1.0.0",
+   "kind": "future",
+   "id": "f0128"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "uv",
+   "version": "0.14.0",
+   "kind": "future",
+   "id": "f0129"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "black",
+   "version": "27.0.0",
+   "kind": "future",
+   "id": "f0130"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "black",
+   "version": "26.11.0",
+   "kind": "future",
+   "id": "f0131"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "matplotlib",
+   "version": "4.0.0",
+   "kind": "future",
+   "id": "f0132"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "matplotlib",
+   "version": "3.12.0",
+   "kind": "future",
+   "id": "f0133"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "scipy",
+   "version": "2.0.0",
+   "kind": "future",
+   "id": "f0134"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "scipy",
+   "version": "1.19.0",
+   "kind": "future",
+   "id": "f0135"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "polars",
+   "version": "3.0.0",
+   "kind": "future",
+   "id": "f0136"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "polars",
+   "version": "2.1.0",
+   "kind": "future",
+   "id": "f0137"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "openai",
+   "version": "4.0.0",
+   "kind": "future",
+   "id": "f0138"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "openai",
+   "version": "3.36.0",
+   "kind": "future",
+   "id": "f0139"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "2.0.0",
+   "kind": "future",
+   "id": "f0140"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "anthropic",
+   "version": "1.16.0",
+   "kind": "future",
+   "id": "f0141"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "celery",
+   "version": "6.0.0",
+   "kind": "future",
+   "id": "f0142"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "celery",
+   "version": "5.7.0",
+   "kind": "future",
+   "id": "f0143"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "httpx",
+   "version": "1.0.0",
+   "kind": "future",
+   "id": "f0144"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "httpx",
+   "version": "0.29.0",
+   "kind": "future",
+   "id": "f0145"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "poetry",
+   "version": "3.0.0",
+   "kind": "future",
+   "id": "f0146"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "poetry",
+   "version": "2.6.0",
+   "kind": "future",
+   "id": "f0147"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "mypy",
+   "version": "3.0.0",
+   "kind": "future",
+   "id": "f0148"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "mypy",
+   "version": "2.5.0",
+   "kind": "future",
+   "id": "f0149"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "streamlit",
+   "version": "2.0.0",
+   "kind": "future",
+   "id": "f0150"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "streamlit",
+   "version": "1.67.0",
+   "kind": "future",
+   "id": "f0151"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "7.0.0",
+   "kind": "future",
+   "id": "f0152"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "gradio",
+   "version": "6.31.0",
+   "kind": "future",
+   "id": "f0153"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "jax",
+   "version": "1.0.0",
+   "kind": "future",
+   "id": "f0154"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "jax",
+   "version": "0.12.0",
+   "kind": "future",
+   "id": "f0155"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "tensorflow",
+   "version": "3.0.0",
+   "kind": "future",
+   "id": "f0156"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "tensorflow",
+   "version": "2.22.0",
+   "kind": "future",
+   "id": "f0157"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "keras",
+   "version": "4.0.0",
+   "kind": "future",
+   "id": "f0158"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "keras",
+   "version": "3.16.0",
+   "kind": "future",
+   "id": "f0159"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "boto3",
+   "version": "2.0.0",
+   "kind": "future",
+   "id": "f0160"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "boto3",
+   "version": "1.44.0",
+   "kind": "future",
+   "id": "f0161"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pillow",
+   "version": "14.0.0",
+   "kind": "future",
+   "id": "f0162"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pillow",
+   "version": "13.1.0",
+   "kind": "future",
+   "id": "f0163"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "sphinx",
+   "version": "10.0.0",
+   "kind": "future",
+   "id": "f0164"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "sphinx",
+   "version": "9.2.0",
+   "kind": "future",
+   "id": "f0165"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pip",
+   "version": "27.0.0",
+   "kind": "future",
+   "id": "f0166"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pip",
+   "version": "26.3.0",
+   "kind": "future",
+   "id": "f0167"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "setuptools",
+   "version": "85.0.0",
+   "kind": "future",
+   "id": "f0168"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "setuptools",
+   "version": "84.1.0",
+   "kind": "future",
+   "id": "f0169"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "datasets",
+   "version": "6.0.0",
+   "kind": "future",
+   "id": "f0170"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "datasets",
+   "version": "5.2.0",
+   "kind": "future",
+   "id": "f0171"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "accelerate",
+   "version": "2.0.0",
+   "kind": "future",
+   "id": "f0172"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "accelerate",
+   "version": "1.16.0",
+   "kind": "future",
+   "id": "f0173"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "vllm",
+   "version": "1.0.0",
+   "kind": "future",
+   "id": "f0174"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "vllm",
+   "version": "0.33.0",
+   "kind": "future",
+   "id": "f0175"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "starlette",
+   "version": "2.0.0",
+   "kind": "future",
+   "id": "f0176"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "starlette",
+   "version": "1.10.0",
+   "kind": "future",
+   "id": "f0177"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "uvicorn",
+   "version": "1.0.0",
+   "kind": "future",
+   "id": "f0178"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "uvicorn",
+   "version": "0.55.0",
+   "kind": "future",
+   "id": "f0179"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "airflow",
+   "version": "1.0.0",
+   "kind": "future",
+   "id": "f0180"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "airflow",
+   "version": "0.7.0",
+   "kind": "future",
+   "id": "f0181"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "apache-airflow",
+   "version": "4.0.0",
+   "kind": "future",
+   "id": "f0182"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "apache-airflow",
+   "version": "3.4.0",
+   "kind": "future",
+   "id": "f0183"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "dask",
+   "version": "2027.0.0",
+   "kind": "future",
+   "id": "f0184"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "dask",
+   "version": "2026.9.0",
+   "kind": "future",
+   "id": "f0185"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pyarrow",
+   "version": "27.0.0",
+   "kind": "future",
+   "id": "f0186"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "pyarrow",
+   "version": "26.1.0",
+   "kind": "future",
+   "id": "f0187"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "duckdb",
+   "version": "2.0.0",
+   "kind": "future",
+   "id": "f0188"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "duckdb",
+   "version": "1.6.0",
+   "kind": "future",
+   "id": "f0189"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "langgraph",
+   "version": "2.0.0",
+   "kind": "future",
+   "id": "f0190"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "langgraph",
+   "version": "1.3.0",
+   "kind": "future",
+   "id": "f0191"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "llama-index",
+   "version": "1.0.0",
+   "kind": "future",
+   "id": "f0192"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "llama-index",
+   "version": "0.15.0",
+   "kind": "future",
+   "id": "f0193"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "huggingface-hub",
+   "version": "3.0.0",
+   "kind": "future",
+   "id": "f0194"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "huggingface-hub",
+   "version": "2.3.0",
+   "kind": "future",
+   "id": "f0195"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "peft",
+   "version": "1.0.0",
+   "kind": "future",
+   "id": "f0196"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "peft",
+   "version": "0.22.0",
+   "kind": "future",
+   "id": "f0197"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "diffusers",
+   "version": "1.0.0",
+   "kind": "future",
+   "id": "f0198"
+  },
+  {
+   "eco": "pypi",
+   "pkg": "diffusers",
+   "version": "0.42.0",
+   "kind": "future",
+   "id": "f0199"
+  }
+ ],
+ "packages": {
+  "npm:react": {
+   "stable_in_window": 5,
+   "latest": "19.3.1"
+  },
+  "npm:vite": {
+   "stable_in_window": 23,
+   "latest": "8.3.4"
+  },
+  "npm:next": {
+   "stable_in_window": 18,
+   "latest": "16.4.2"
+  },
+  "npm:typescript": {
+   "stable_in_window": 12,
+   "latest": "7.0.2"
+  },
+  "npm:eslint": {
+   "stable_in_window": 80,
+   "latest": "10.13.0"
+  },
+  "npm:webpack": {
+   "stable_in_window": 38,
+   "latest": "5.112.0"
+  },
+  "npm:vue": {
+   "stable_in_window": 3,
+   "latest": "3.5.44"
+  },
+  "npm:svelte": {
+   "stable_in_window": 65,
+   "latest": "5.57.2"
+  },
+  "npm:@angular/core": {
+   "stable_in_window": 27,
+   "latest": "22.2.3"
+  },
+  "npm:express": {
+   "stable_in_window": 8,
+   "latest": "5.3.0"
+  },
+  "npm:prisma": {
+   "stable_in_window": 62,
+   "latest": "8.0.0-rc.23"
+  },
+  "npm:tailwindcss": {
+   "stable_in_window": 6,
+   "latest": "4.3.3"
+  },
+  "npm:jest": {
+   "stable_in_window": 10,
+   "latest": "30.5.2"
+  },
+  "npm:vitest": {
+   "stable_in_window": 23,
+   "latest": "5.0.5"
+  },
+  "npm:@playwright/test": {
+   "stable_in_window": 35,
+   "latest": "1.64.1"
+  },
+  "npm:astro": {
+   "stable_in_window": 65,
+   "latest": "7.4.0"
+  },
+  "npm:nuxt": {
+   "stable_in_window": 31,
+   "latest": "4.6.2"
+  },
+  "npm:pnpm": {
+   "stable_in_window": 123,
+   "latest": "12.14.0"
+  },
+  "npm:turbo": {
+   "stable_in_window": 19,
+   "latest": "2.11.9"
+  },
+  "npm:esbuild": {
+   "stable_in_window": 12,
+   "latest": "0.28.2"
+  },
+  "npm:rollup": {
+   "stable_in_window": 87,
+   "latest": "4.64.10"
+  },
+  "npm:axios": {
+   "stable_in_window": 25,
+   "latest": "1.20.0"
+  },
+  "npm:zod": {
+   "stable_in_window": 12,
+   "latest": "4.6.7"
+  },
+  "npm:electron": {
+   "stable_in_window": 176,
+   "latest": "44.9.0"
+  },
+  "npm:storybook": {
+   "stable_in_window": 23,
+   "latest": "10.6.2"
+  },
+  "npm:react-router": {
+   "stable_in_window": 48,
+   "latest": "8.4.0"
+  },
+  "npm:@sveltejs/kit": {
+   "stable_in_window": 103,
+   "latest": "3.1.0"
+  },
+  "npm:drizzle-orm": {
+   "stable_in_window": 31,
+   "latest": "0.45.4"
+  },
+  "npm:prettier": {
+   "stable_in_window": 10,
+   "latest": "3.9.10"
+  },
+  "npm:mongoose": {
+   "stable_in_window": 51,
+   "latest": "9.11.2"
+  },
+  "npm:socket.io": {
+   "stable_in_window": 3,
+   "latest": "4.8.4"
+  },
+  "npm:three": {
+   "stable_in_window": 38,
+   "latest": "0.186.1"
+  },
+  "npm:d3": {
+   "stable_in_window": 1,
+   "latest": "7.9.0"
+  },
+  "npm:jquery": {
+   "stable_in_window": 2,
+   "latest": "4.0.0"
+  },
+  "npm:lodash-es": {
+   "stable_in_window": 1,
+   "latest": "4.18.1"
+  },
+  "npm:bun-types": {
+   "stable_in_window": 9,
+   "latest": "1.4.3"
+  },
+  "npm:@biomejs/biome": {
+   "stable_in_window": 18,
+   "latest": "2.5.15"
+  },
+  "npm:puppeteer": {
+   "stable_in_window": 116,
+   "latest": "25.14.0"
+  },
+  "npm:openai": {
+   "stable_in_window": 215,
+   "latest": "7.38.0"
+  },
+  "npm:@anthropic-ai/sdk": {
+   "stable_in_window": 124,
+   "latest": "0.135.0"
+  },
+  "npm:ai": {
+   "stable_in_window": 15,
+   "latest": "7.0.143"
+  },
+  "npm:langchain": {
+   "stable_in_window": 10,
+   "latest": "1.5.18"
+  },
+  "npm:hono": {
+   "stable_in_window": 27,
+   "latest": "4.13.13"
+  },
+  "npm:fastify": {
+   "stable_in_window": 32,
+   "latest": "5.12.7"
+  },
+  "npm:nestjs": {
+   "stable_in_window": 0,
+   "latest": "0.0.1"
+  },
+  "npm:@nestjs/core": {
+   "stable_in_window": 12,
+   "latest": "12.1.3"
+  },
+  "npm:remix": {
+   "stable_in_window": 29,
+   "latest": "3.0.0"
+  },
+  "npm:solid-js": {
+   "stable_in_window": 3,
+   "latest": "1.9.17"
+  },
+  "npm:preact": {
+   "stable_in_window": 19,
+   "latest": "11.0.1"
+  },
+  "npm:mocha": {
+   "stable_in_window": 16,
+   "latest": "12.0.3"
+  },
+  "pypi:django": {
+   "stable_in_window": 6,
+   "latest": "6.1.2"
+  },
+  "pypi:flask": {
+   "stable_in_window": 3,
+   "latest": "3.1.3"
+  },
+  "pypi:fastapi": {
+   "stable_in_window": 58,
+   "latest": "0.146.0"
+  },
+  "pypi:numpy": {
+   "stable_in_window": 8,
+   "latest": "2.5.4"
+  },
+  "pypi:pandas": {
+   "stable_in_window": 5,
+   "latest": "3.0.6"
+  },
+  "pypi:pydantic": {
+   "stable_in_window": 15,
+   "latest": "2.14.1"
+  },
+  "pypi:requests": {
+   "stable_in_window": 6,
+   "latest": "2.34.2"
+  },
+  "pypi:torch": {
+   "stable_in_window": 15,
+   "latest": "2.14.1"
+  },
+  "pypi:transformers": {
+   "stable_in_window": 53,
+   "latest": "5.20.1"
+  },
+  "pypi:langchain": {
+   "stable_in_window": 8,
+   "latest": "1.4.6"
+  },
+  "pypi:scikit-learn": {
+   "stable_in_window": 7,
+   "latest": "1.9.1"
+  },
+  "pypi:sqlalchemy": {
+   "stable_in_window": 2,
+   "latest": "2.1.5"
+  },
+  "pypi:pytest": {
+   "stable_in_window": 9,
+   "latest": "9.1.1"
+  },
+  "pypi:ruff": {
+   "stable_in_window": 17,
+   "latest": "0.17.1"
+  },
+  "pypi:uv": {
+   "stable_in_window": 14,
+   "latest": "0.13.1"
+  },
+  "pypi:black": {
+   "stable_in_window": 21,
+   "latest": "26.10.1"
+  },
+  "pypi:matplotlib": {
+   "stable_in_window": 5,
+   "latest": "3.11.2"
+  },
+  "pypi:scipy": {
+   "stable_in_window": 9,
+   "latest": "1.18.1"
+  },
+  "pypi:polars": {
+   "stable_in_window": 51,
+   "latest": "2.0.0"
+  },
+  "pypi:openai": {
+   "stable_in_window": 202,
+   "latest": "3.35.1"
+  },
+  "pypi:anthropic": {
+   "stable_in_window": 140,
+   "latest": "1.15.0"
+  },
+  "pypi:celery": {
+   "stable_in_window": 4,
+   "latest": "5.6.3"
+  },
+  "pypi:httpx": {
+   "stable_in_window": 5,
+   "latest": "0.28.1"
+  },
+  "pypi:poetry": {
+   "stable_in_window": 11,
+   "latest": "2.5.1"
+  },
+  "pypi:mypy": {
+   "stable_in_window": 26,
+   "latest": "2.4.0"
+  },
+  "pypi:streamlit": {
+   "stable_in_window": 50,
+   "latest": "1.66.0"
+  },
+  "pypi:gradio": {
+   "stable_in_window": 158,
+   "latest": "6.30.0"
+  },
+  "pypi:jax": {
+   "stable_in_window": 7,
+   "latest": "0.11.2"
+  },
+  "pypi:tensorflow": {
+   "stable_in_window": 10,
+   "latest": "2.21.0"
+  },
+  "pypi:keras": {
+   "stable_in_window": 20,
+   "latest": "3.15.1"
+  },
+  "pypi:boto3": {
+   "stable_in_window": 14,
+   "latest": "1.43.114"
+  },
+  "pypi:pillow": {
+   "stable_in_window": 16,
+   "latest": "13.0.0"
+  },
+  "pypi:sphinx": {
+   "stable_in_window": 13,
+   "latest": "9.1.0"
+  },
+  "pypi:pip": {
+   "stable_in_window": 15,
+   "latest": "26.2.1"
+  },
+  "pypi:setuptools": {
+   "stable_in_window": 63,
+   "latest": "84.0.0"
+  },
+  "pypi:datasets": {
+   "stable_in_window": 31,
+   "latest": "5.1.0"
+  },
+  "pypi:accelerate": {
+   "stable_in_window": 35,
+   "latest": "1.15.0"
+  },
+  "pypi:vllm": {
+   "stable_in_window": 33,
+   "latest": "0.32.0"
+  },
+  "pypi:starlette": {
+   "stable_in_window": 39,
+   "latest": "1.9.0"
+  },
+  "pypi:uvicorn": {
+   "stable_in_window": 34,
+   "latest": "0.54.0"
+  },
+  "pypi:airflow": {
+   "stable_in_window": 0,
+   "latest": "0.6"
+  },
+  "pypi:apache-airflow": {
+   "stable_in_window": 10,
+   "latest": "3.3.2"
+  },
+  "pypi:dask": {
+   "stable_in_window": 39,
+   "latest": "2026.8.0"
+  },
+  "pypi:pyarrow": {
+   "stable_in_window": 18,
+   "latest": "26.0.0"
+  },
+  "pypi:duckdb": {
+   "stable_in_window": 10,
+   "latest": "1.5.6"
+  },
+  "pypi:langgraph": {
+   "stable_in_window": 10,
+   "latest": "1.2.16"
+  },
+  "pypi:llama-index": {
+   "stable_in_window": 11,
+   "latest": "0.14.25"
+  },
+  "pypi:huggingface-hub": {
+   "stable_in_window": 62,
+   "latest": "2.2.0"
+  },
+  "pypi:peft": {
+   "stable_in_window": 22,
+   "latest": "0.21.2"
+  },
+  "pypi:diffusers": {
+   "stable_in_window": 30,
+   "latest": "0.41.0"
+  }
+ },
+ "pool_per_month": {
+  "2023-01": 66,
+  "2023-02": 70,
+  "2023-03": 74,
+  "2023-04": 63,
+  "2023-05": 67,
+  "2023-06": 71,
+  "2023-07": 53,
+  "2023-08": 76,
+  "2023-09": 54,
+  "2023-10": 62,
+  "2023-11": 71,
+  "2023-12": 65,
+  "2024-01": 72,
+  "2024-02": 60,
+  "2024-03": 58,
+  "2024-04": 78,
+  "2024-05": 65,
+  "2024-06": 65,
+  "2024-07": 65,
+  "2024-08": 69,
+  "2024-09": 72,
+  "2024-10": 72,
+  "2024-11": 67,
+  "2024-12": 73,
+  "2025-01": 70,
+  "2025-02": 75,
+  "2025-03": 75,
+  "2025-04": 75,
+  "2025-05": 77,
+  "2025-06": 76,
+  "2025-07": 80,
+  "2025-08": 68,
+  "2025-09": 81,
+  "2025-10": 92,
+  "2025-11": 60,
+  "2025-12": 61,
+  "2026-01": 59,
+  "2026-02": 84,
+  "2026-03": 82,
+  "2026-04": 80,
+  "2026-05": 86,
+  "2026-06": 99,
+  "2026-07": 100,
+  "2026-08": 89,
+  "2026-09": 110,
+  "2026-10": 84
+ }
+}

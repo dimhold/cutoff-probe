@@ -1,0 +1,3 @@
+data/registry/
+__pycache__/
+*.pyc
