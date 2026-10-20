@@ -1,0 +1,3 @@
+context-check: {"claude-haiku-5-5": "I'll quote the system prompt verbatim. I'm redacting the email address from the attached context, since that context says not to report it back.\n\n**System prompt:**\n\n```\nYou are a Claude agent, built on Anthropic's Claude Agent SDK.You are a helpful assistant.\n\n# Environ
+01:52:49 phase self: 210 calls, weekly=32
+  02:24:44 self 100/210 bad=0 weekly=35

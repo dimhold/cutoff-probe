@@ -1,0 +1,11 @@
+15:01:07 phase self2: 0 calls, weekly=56
+15:01:07 phase self2 done: 0 written, 0 bad
+15:01:07 phase guess0: 118 calls, weekly=56
+  15:41:58 guess0 100/118 bad=0 weekly=59
+15:47:47 phase guess0 done: 118 written, 0 bad
+15:47:47 phase front1: 56 calls, weekly=58
+16:04:10 phase front1 done: 56 written, 0 bad
+16:04:10 phase batch1: 266 calls, weekly=61
+  16:41:05 batch1 100/266 bad=0 weekly=64
+  17:21:06 batch1 200/266 bad=0 weekly=57
+[limit] weekly=66 msg=429 You've hit your session limit · resets 6:40pm (<local tz>)

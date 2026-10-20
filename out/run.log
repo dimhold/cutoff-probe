@@ -1,0 +1,25 @@
+02:40:32 phase batch0: 266 calls, weekly=37
+  03:18:11 batch0 100/266 bad=0 weekly=40
+  03:58:50 batch0 200/266 bad=0 weekly=44
+[limit] weekly=46 msg=429 You've hit your session limit · resets 4:50am (<local tz>)
+[limit] weekly=44 msg=429 You've hit your session limit · resets 4:50am (<local tz>)
+[limit] weekly=44 msg=429 You've hit your session limit · resets 4:50am (<local tz>)
+[limit] weekly=46 msg=429 You've hit your session limit · resets 4:50am (<local tz>)
+[limit] weekly=47 msg=429 You've hit your session limit · resets 4:50am (<local tz>)
+[limit] weekly=47 msg=429 You've hit your session limit · resets 4:50am (<local tz>)
+[limit] weekly=44 msg=429 You've hit your session limit · resets 4:50am (<local tz>)
+[limit] weekly=47 msg=429 You've hit your session limit · resets 4:50am (<local tz>)
+05:26:54 phase batch0 done: 266 written, 0 bad
+05:26:54 phase front0: 56 calls, weekly=50
+--- restart 2026-10-19 05:39:36 with guess arm
+05:41:21 phase front0: 32 calls, weekly=51
+05:59:18 phase front0 done: 32 written, 0 bad
+05:59:18 phase self2: 35 calls, weekly=53
+06:38:44 phase self2 done: 35 written, 10 bad
+06:38:46 phase guess0: 266 calls, weekly=54
+  11:11:40 guess0 100/266 bad=100 weekly=54
+--- restart 2026-10-19 13:56 WORKERS=1, auth stop, prompt via file
+13:56:36 phase self2: 10 calls, weekly=54
+13:57:28 phase self2 done: 10 written, 0 bad
+13:57:28 phase guess0: 266 calls, weekly=54
+  14:39:24 guess0 100/266 bad=0 weekly=56
