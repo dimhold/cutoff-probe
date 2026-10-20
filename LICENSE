@@ -1,0 +1,56 @@
+This repository is licensed in two parts.
+
+1. Code (*.py) is licensed under the MIT License below.
+2. Data and text (battery.json, data/releases.json, out/, context-check.json,
+   stats.md, RESULTS.md, CRITERIA.md, PRIOR-WORK.md, README.md) are licensed
+   under the Creative Commons Attribution 4.0 International License (CC BY 4.0),
+   https://creativecommons.org/licenses/by/4.0/legalcode, with the third party
+   exceptions listed at the end of this file.
+
+-------------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2026 Dmitriy Semenkevich
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+
+Data: CC BY 4.0
+
+Copyright (c) 2026 Dmitriy Semenkevich. You may share and adapt the data and
+text for any purpose, provided you give appropriate credit (see CITATION.cff),
+link to the licence and indicate if changes were made.
+
+Third party material, not covered by the licences above:
+
+- Package names, version numbers and publication times in battery.json and
+  data/releases.json are facts taken from the public npm registry
+  (registry.npmjs.org) and the Python Package Index (pypi.org) on 2026-10-19.
+  They are reproduced as a derived, minimal extract for research. Use of the
+  registries themselves is subject to their own terms (npm: the npm Open Source
+  Terms; PyPI: the PyPI Terms of Use and the metadata supplied by package
+  authors). The raw registry responses are not redistributed.
+- prior/opus-5.md, prior/sonnet-5.md, prior/haiku-4-5.md and the excerpt in
+  prior/models-overview-2026-10-19.md are snapshots of Anthropic documentation
+  pages, kept as evidence of the stated cutoff dates. They remain Anthropic's.
+- prior/s2.json holds raw responses of the Semantic Scholar Academic Graph API,
+  subject to the Semantic Scholar API License Agreement. Paper titles and
+  abstracts in it belong to their authors and publishers.

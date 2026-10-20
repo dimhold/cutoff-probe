@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "cutoff-probe"
+type: software
+authors:
+  - family-names: Semenkevich
+    given-names: Dmitriy
+    orcid: "https://orcid.org/0009-0009-3013-4978"
+version: "1.0.0"
+date-released: "2026-10-20"
+license: MIT
+repository-code: "https://github.com/dimhold/cutoff-probe"
+abstract: "Knowledge cutoff of 7 Claude models measured by fact on 552 dated npm and PyPI releases, against the vendor date and the model's own report. The 5.5 generation stops knowing releases in 2025-09 to 2025-12, 6 to 9 months before the stated Jun 2026. Inside the CLI the models repeat the stated date in 118 of 130 answers, because the client puts it into the system prompt. False recognition of nonexistent versions is 0 to 5%."
+keywords:
+  - "LLM evaluation"
+  - "knowledge cutoff"
+  - "temporal knowledge"
+  - "software package versions"
+  - "self report"
+  - "preregistration"
