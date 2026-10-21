@@ -263,7 +263,21 @@ The same thresholds on the monthly share itself, compared exactly (fractions, no
 | claude-sonnet-5 | 2024-11 | 2025-08 | 9 |
 | claude-haiku-4-5 | 2024-12 | 2025-01 | 1 |
 
-claude-opus-5 sits on a tie: 21/24 in 2025-09 equals 90% of its 2024 baseline of 35/36 exactly. In floating point the same comparison fails and the width reads 5 (2025-07..2025-12).
+claude-opus-5 sits on a tie: 21/24 in 2025-09 equals 90% of its 2024 baseline of 35/36 exactly. Under a strict comparison the width reads 5 (2025-07..2025-12).
+
+## Last month above 10%, correct share and known share (both repeats)
+
+A comparison with HindsightBench, chosen after the data. Its effective cutoff is the last month with outcome recall propensity above 0.1; the closest analog here is the share of answers with known=true, the share correct is given beside it. Strictly above 10%, monthly, unsmoothed.
+
+| model | last month correct > 10% | last month known > 10% |
+|---|---|---|
+| claude-opus-5-5 | 2026-01 (5/24) | 2026-01 (5/24) |
+| claude-sonnet-5-5 | 2026-02 (3/24) | 2026-02 (3/24) |
+| claude-haiku-5-5 | 2025-11 (5/24) | 2025-12 (4/24) |
+| claude-fable-5-1 | 2026-01 (5/24) | 2026-01 (5/24) |
+| claude-opus-5 | 2026-01 (3/24) | 2026-01 (3/24) |
+| claude-sonnet-5 | 2025-06 (5/24) | 2025-06 (5/24) |
+| claude-haiku-4-5 | 2024-01 (4/23) | 2024-08 (3/24) |
 
 ## haiku-4-5 monthly 2024-07..2025-09
 

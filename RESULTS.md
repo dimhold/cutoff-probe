@@ -79,7 +79,7 @@ for sonnet-5 in 2026Q4.
 | fable-5-1 | 2026-06 | 2025-11 | 2025-10..2025-11 | 7 mo | 2025-09 / 2025-11 | 2026-06 x15 of 20 | 2025-01..2025-05 |
 | opus-5 | 2026-05 | 2025-10 | 2025-09..2025-10 | 7 mo | 2025-10 / 2026-02 | 2026-05 x21 of 22 | 2025-01 x5 |
 | sonnet-5 | 2026-01 | 2025-01 | 2024-12..2025-02 | 12 mo | 2025-02 / 2025-09 | 2026-01 x18 of 22 | 2025-02, 2025-04 |
-| haiku-4-5 | 2025-02 | (rule not applicable) | 2024-04..2025-01 | | 2024-02 / 2024-07 | 2025-02 x16 | 2024-04 x3, 2025-02 x2 |
+| haiku-4-5 | 2025-02 | (rule not applicable) | | | 2024-02 / 2024-07 | 2025-02 x16 | 2024-04 x3, 2025-02 x2 |
 
 The measured cutoff is stable between repeats: repeat 0 and repeat 1 differ by
 at most 2 months (opus-5-5: 2025-10 and 2025-08) and coincide for 4 models.
@@ -174,19 +174,23 @@ haiku-5-5 and 9 for opus-5-5 and sonnet-5. That window has a floor: a perfect
 step reads as 3 months on it. On the unsmoothed monthly share (floor 1 month)
 the widths are 9 for opus-5-5 and sonnet-5, 7 for fable-5-1, 6 for haiku-5-5,
 4 for sonnet-5-5 and 3 for opus-5 (a tie at exactly 90% in 2025-09; 5 under a
-strict comparison). So for 4 of the 6 models the fall is a slope of 6 to 9
-months and for sonnet-5-5 and opus-5 it is close to a step. The point from the
-CRITERIA rule lies inside the band. TempoMed-Bench reports a gradual decline
-on medical knowledge and LLMLagBench several partial cutoffs for Claude
-Sonnet 4, so the slope itself is not new.
+strict comparison). So all 6 models fall over 3 months or more on the
+unsmoothed share, where a step would read 1: 6 to 9 months for 4 of them and 3
+to 4 for sonnet-5-5 and opus-5 (5 for opus-5 under a strict comparison).
+Monthly, sonnet-5-5 has 21, 17, 13, 3 and 0 correct of 24 over
+2025-11..2026-03 and opus-5 21, 11, 6 and 2 over 2025-09..2025-12. The point
+from the CRITERIA rule lies inside the band. TempoMed-Bench reports a gradual
+decline on medical knowledge, so the slope itself is not new. LLMLagBench
+fits piecewise constant segments and finds more than 1 boundary for some
+models (2 changepoints for Claude Sonnet 4), which is a set of steps rather
+than a slope.
 
 ## What else is visible
 
 - **The arm with a required estimate does not measure knowledge.** Among "do
   not remember" answers on releases from 2026-04..2026-10, which the models
   never saw, the month hits in 43 to 63% for the 4 models of 5.5 and opus-5
-  (17% for sonnet-5, 4% for haiku-4-5; the Russian original said "the 5 and
-  5.5 models", which overstated it). Estimates
+  (17% for sonnet-5, 4% for haiku-4-5). Estimates
   cluster around the date in the context: for opus-5-5 on 48 releases from
   2026-07..2026-10 the most frequent estimate is 2026-08 (15 times). That is
   the anchor "Today's date is 2026-10-19", not memory. So the primary arm
@@ -226,8 +230,9 @@ Sonnet 4, so the slope itself is not new.
 - For haiku-4-5 the break rule does not apply because of the 4.3% baseline;
   the verdict on it rests on an arm that was not in CRITERIA, on answers the
   model does not flag as remembered.
-- The bootstrap, Wilson intervals, frontier p90, monthly slices and the width
-  of the decline are not in CRITERIA; they were chosen after the data came in.
+- The bootstrap, Wilson intervals, frontier p90, monthly slices, the width
+  of the decline and the 10% threshold used to compare with HindsightBench
+  are not in CRITERIA; they were chosen after the data came in.
 - The registration has no third party timestamp: its order before the first
   call rests on local git dates.
 - The search before the run did not reach arXiv (throttled) and missed
@@ -246,8 +251,9 @@ perplexity. **LLMLagBench** (Pęzik et al., 2025,
 reported date and a measured boundary side by side for 35 models from news
 events. **HindsightBench** (Jia, 2026,
 [arXiv:2607.18867](https://arxiv.org/abs/2607.18867)) found black box effective
-cutoffs up to 8 months before vendor dates across 15 models, Claude Sonnet 5
-(2025-10) and Claude Haiku 4.5 (2024-10) among them. **Beyond the Reported
+cutoffs on 15 models, up to 8 months before the vendor date for 5 of the 7
+with a published date, Claude Sonnet 5 (2025-10) and Claude Haiku 4.5
+(2024-10) among them. **Beyond the Reported
 Cutoff** ([arXiv:2504.00042](https://arxiv.org/abs/2504.00042)) did it on
 financial facts at yearly resolution; a monthly curve on celebrity deaths for 1
 model is in **mattm/llm-knowledge-cutoff** (2023). TempoMed-Bench
@@ -267,5 +273,12 @@ date in 63 of 70 answers, consistent with the CLI's cutoff line, where
 LLMLagBench saw earlier Claude models name earlier dates. Told that the line
 may be wrong, the 5.5 models and opus-5 name a month 3 to 10 months earlier
 than their own knowledge curve (25 answers of 25; the wording is leading).
-On sonnet-5 HindsightBench and this study disagree by 4 to 9 months, which
-fits the Dated Data point that the effective cutoff depends on the subject.
+HindsightBench's effective cutoff is the last month with an outcome recall
+propensity above 0.1, so the closest measure here is the share of answers
+with `known=true` (threshold chosen after the data, `intervals.py`). By that
+share the last month above 10% is 2025-06 for sonnet-5 (HindsightBench
+2025-10) and 2024-08 for haiku-4-5 (HindsightBench 2024-10); the share
+correct gives the same 2025-06 for sonnet-5, against 2025-01 by the
+registered rule. On sonnet-5 the 2 studies disagree by 4 to 9 months, which
+fits the Dated Data point that the effective cutoff depends on the subject;
+on haiku-4-5 they are 2 months apart.

@@ -184,31 +184,73 @@ print()
 print('The same thresholds on the monthly share itself, compared exactly '
       '(fractions, no rounding). The floor for a perfect step is 1 month.')
 print()
+def width(fr, b, strict):
+    """Last month at 90% or more of b (more than 90% if strict), first month
+    after it at 10% or less. Compared exactly on Fractions."""
+    his = [i for i, x in enumerate(fr) if x is not None and b and
+           (x > b * 9 / 10 if strict else x >= b * 9 / 10)]
+    hi_i = max(his) if his else None
+    lo_i = None
+    if hi_i is not None:
+        for i in range(hi_i + 1, len(fr)):
+            if fr[i] is not None and fr[i] <= b / 10:
+                lo_i = i
+                break
+    return hi_i, lo_i
+
+
+def wfmt(hi_i, lo_i):
+    if hi_i is None or lo_i is None:
+        return '-'
+    return '%d (%s..%s)' % (lo_i - hi_i, months[hi_i], months[lo_i])
+
+
 print('| model | last >= 90% | first <= 10% | months |')
 print('|---|---|---|---|')
+ties = []
 for m in M:
     L = [[o for _, o in obs[(m, mo)]] for mo in months]
     fr = [Fraction(sum(1 for o in x if o == 'correct'), len(x)) if x else None
           for x in L]
     fb = [x for mo, x in zip(months, fr) if mo.startswith('2024') and x is not None]
     b = sum(fb) / len(fb) if fb else 0
-    his = [i for i, x in enumerate(fr) if x is not None and b and
-           x >= Fraction(9, 10) * b]
-    hi_i = max(his) if his else None
-    lo_i = None
-    if hi_i is not None:
-        for i in range(hi_i + 1, len(fr)):
-            if fr[i] is not None and fr[i] <= Fraction(1, 10) * b:
-                lo_i = i
-                break
+    hi_i, lo_i = width(fr, b, False)
     print('| %s | %s | %s | %s |' % (
         m, months[hi_i] if hi_i is not None else '-',
         months[lo_i] if lo_i is not None else '-',
         (lo_i - hi_i) if (hi_i is not None and lo_i is not None) else '-'))
+    s_hi, s_lo = width(fr, b, True)
+    if (s_hi, s_lo) != (hi_i, lo_i):
+        ties.append((m, b, L[hi_i], months[hi_i], (s_hi, s_lo)))
 print()
-print('claude-opus-5 sits on a tie: 21/24 in 2025-09 equals 90% of its 2024 '
-      'baseline of 35/36 exactly. In floating point the same comparison fails '
-      'and the width reads 5 (2025-07..2025-12).')
+for m, b, Lt, mo, st_ in ties:
+    print('%s sits on a tie: %d/%d in %s equals 90%% of its 2024 baseline of '
+          '%s exactly. Under a strict comparison the width reads %s.' % (
+              m, sum(1 for o in Lt if o == 'correct'), len(Lt), mo, b,
+              wfmt(*st_)))
+    print()
+print('## Last month above 10%, correct share and known share (both repeats)')
+print()
+print('A comparison with HindsightBench, chosen after the data. Its effective '
+      'cutoff is the last month with outcome recall propensity above 0.1; the '
+      'closest analog here is the share of answers with known=true, the share '
+      'correct is given beside it. Strictly above 10%, monthly, unsmoothed.')
+print()
+print('| model | last month correct > 10% | last month known > 10% |')
+print('|---|---|---|')
+for m in M:
+    lc = lk = None
+    for mo in months:
+        L = [o for _, o in obs[(m, mo)]]
+        if not L:
+            continue
+        c = Fraction(sum(1 for o in L if o == 'correct'), len(L))
+        k = Fraction(sum(1 for o in L if o in ('correct', 'wrong')), len(L))
+        if c > Fraction(1, 10):
+            lc = '%s (%d/%d)' % (mo, c * len(L), len(L))
+        if k > Fraction(1, 10):
+            lk = '%s (%d/%d)' % (mo, k * len(L), len(L))
+    print('| %s | %s | %s |' % (m, lc or '-', lk or '-'))
 print()
 g = defaultdict(list)
 for r in rows:

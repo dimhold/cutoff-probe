@@ -101,12 +101,16 @@ requests, so arXiv was in effect not searched before the run.
   Hindsight in Time-Indexed LLM Decision Tasks** (Jia, 2026,
   [arXiv:2607.18867](https://arxiv.org/abs/2607.18867)). Preregistered, no
   logprobs, a macroeconomic panel, 15 models from 7 vendors. Its behaviorally
-  effective cutoff is the last month with outcome recall above 0.1. Effective
-  cutoffs span 22 months and come up to 8 months before vendor dates. 2 models
-  overlap with this panel: Claude Sonnet 5 measured 2025-10 (here: 2025-01 by
-  the registered rule, last month above 10% correct 2025-06) and Claude Haiku
-  4.5 measured 2024-10 (here: rule not applicable, estimate arm hits up to
-  2025-02).
+  effective cutoff is the last month with an outcome recall propensity (LAP)
+  above 0.1, defined for 12 recall capable models. Effective cutoffs span 22
+  months; where a vendor date is published (7 of the 12) 5 are early, by up to
+  8 months, 1 is exact and 1 is 1 month late. 2 models overlap with this
+  panel: Claude Sonnet 5 measured 2025-10 (here: 2025-01 by the registered
+  rule; last month with more than 10% `known=true`, the closest analog of
+  LAP, 2025-06; the same month by share correct) and Claude Haiku 4.5 measured
+  2024-10 (here: rule not applicable; last month with more than 10%
+  `known=true` 2024-08; estimate arm hits up to 2025-02). The 10% comparison
+  was chosen after the data.
 - **Large Language Models Lack Temporal Awareness of Medical Knowledge**
   (TempoMed-Bench, Guan et al., 2026,
   [arXiv:2605.13045](https://arxiv.org/abs/2605.13045)). On medical guidelines

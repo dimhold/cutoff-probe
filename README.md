@@ -19,8 +19,8 @@ perplexity over dated document versions. **LLMLagBench** (Pęzik et al., 2025,
 date, the model's own date and a measured boundary side by side for 35 models
 from news events, Claude Sonnet 4 among them. **HindsightBench** (Jia, 2026,
 [arXiv:2607.18867](https://arxiv.org/abs/2607.18867)) finds black box effective
-cutoffs up to 8 months before vendor dates across 15 models, Claude Sonnet 5
-and Claude Haiku 4.5 among them. **TempoMed-Bench**
+cutoffs on 15 models, up to 8 months before the vendor date for 5 of the 7
+with a published date, Claude Sonnet 5 and Claude Haiku 4.5 among them. **TempoMed-Bench**
 ([arXiv:2605.13045](https://arxiv.org/abs/2605.13045)) finds a gradual decline
 rather than a sharp edge. **Beyond the Reported Cutoff**
 ([arXiv:2504.00042](https://arxiv.org/abs/2504.00042)) did it on company
@@ -56,7 +56,8 @@ search record, including what was added at review:
 - The cutoff is a slope rather than a point. From the last month at 90% of the
   2024 level to the first at 10%, unsmoothed, it takes 6 to 9 months for 4 of
   the 6 models where the rule applies and 3 to 4 months for sonnet-5-5 and
-  opus-5. On the 3 month window the rule uses the widths are 4 to 9 months.
+  opus-5 (5 for opus-5 under a strict comparison), where a step would read
+  1. On the 3 month window the rule uses the widths are 4 to 9 months.
   That window reads even a perfect step as 3.
 - False recognition of versions that do not exist: 0 of 400 for opus-5-5 and
   sonnet-5-5, at most 20 of 392 (5.1%) for haiku-4-5. The curve measures
@@ -82,7 +83,8 @@ Verdicts on each preregistered expectation and every limitation:
   [PRIOR-WORK.md](PRIOR-WORK.md) were written on 2026-10-19 before the first
   model call, including the cutoff rule and what would refute each expectation.
   The bootstrap, the Wilson intervals, the frontier p90, the monthly slices
-  and the width of the decline were added after the data came in. The last
+  the width of the decline and the 10% threshold of the HindsightBench
+  comparison were added after the data came in. The last
   section of PRIOR-WORK.md was added at review.
 - **Battery from the registries.** [`battery.py`](battery.py) takes the first
   stable release of every minor line of 100 popular package entries (50 npm,
