@@ -1,7 +1,8 @@
 # RESULTS: cutoff-probe (A9)
 
 The niche is taken, see `PRIOR-WORK.md` and the section "What is ours" below:
-any text about this result names Dated Data first.
+any text about this result names Dated Data, LLMLagBench and HindsightBench
+first. The last 2 were found at review on 2026-10-21, after the counting.
 
 Counted on 2026-10-20 with `analyze.py` plus intervals and monthly slices
 (`intervals.py`). All tables are in `stats.md`; this file holds only what the
@@ -32,7 +33,7 @@ match the vendor date and what the model says about itself?
 | batch0, batch1 | knowledge curve and false recognition, 2 repeats | 266 + 266 |
 | front0, front1 | frontier, 2 repeats | 56 + 56 |
 | self | self report, 6 wordings | 130 of 210 |
-| self2 | self report asked to set the cutoff line aside | 35 of 35 |
+| self2 | self report, told the cutoff line may be wrong and asked to set it aside | 35 of 35 |
 | guess0 | arm with a required month estimate, 1 repeat | 266 |
 
 Per model that is 752 questions per repeat, so 1104 answers on real releases
@@ -60,15 +61,17 @@ journal.
 
 ## Main finding
 
-**Current generation models know package releases 6 to 9 months earlier than
-the stated date and state the stated date about themselves because the CLI
-hands it to them.** The vendor gives Jun 2026 for all 4 models of 5.5; the
-curve falls below half of the 2024 level in 2025-09 (opus-5-5, haiku-5-5),
-2025-11 (fable-5-1) and 2025-12 (sonnet-5-5). From 2026-03 to 2026-09 none of
+**The 5.5 generation (the 4 models stated as Jun 2026, fable-5-1 included)
+falls to half of its 2024 knowledge of package releases 6 to 9 months before
+the stated date, yet inside the CLI gives the stated date about itself in 63 of
+70 answers, consistent with a cutoff line the CLI puts into the system
+prompt.** The last month at or above half of the 2024 level is 2025-09
+(opus-5-5, haiku-5-5), 2025-11 (fable-5-1) and 2025-12 (sonnet-5-5). Correct
+answers reach 0 by 2026-02 (2026-03 for sonnet-5-5). From 2026-03 to 2026-09 none of
 the 7 models has a single correct answer; the only exception after that is 4%
 for sonnet-5 in 2026Q4.
 
-| model | vendor | measured | 95% bootstrap | earlier than vendor | frontier median / p90 | self report in CLI | self report without the line |
+| model | vendor | measured | 95% bootstrap | earlier than vendor | frontier median / p90 | self report in CLI | self2, told the line may be wrong |
 |---|---|---|---|---|---|---|---|
 | opus-5-5 | 2026-06 | 2025-09 | 2025-08..2025-10 | 9 mo | 2025-08 / 2025-10 | 2026-06 x18 | 2025-01 x5 |
 | sonnet-5-5 | 2026-06 | 2025-12 | 2025-12..2026-01 | 6 mo | 2025-10 / 2025-12 | 2026-06 x18 of 19 | 2025-05..2025-09 |
@@ -99,15 +102,21 @@ any model.
 
 **2. The self report is earlier than both the stated and the measured cutoff.
 Depends on the condition; refuted in the working condition.** On the 6 ordinary
-wordings the models name exactly the vendor date in 118 answers of 130, that
-is later than measured, not earlier. The reason is visible in
-`context-check.json`: the CLI puts the line "Assistant knowledge cutoff is June
-2026" into the system prompt (captured for haiku-5-5). The model repeats it.
-The line was not captured for the other models, but each names exactly its own
-vendor date (opus-5 2026-05, sonnet-5 2026-01, haiku-4-5 2025-02), which is
-consistent with such a line. CRITERIA knew only about the line with today's
-date; the cutoff line was found afterwards.
-When the model is asked to set this line aside (self2, 5 answers per model),
+wordings the 5.5 generation names Jun 2026 in 63 answers of 70 and all 7
+models name exactly their vendor date in 118 of 130, that is later than
+measured, not earlier. `context-check.json` shows the CLI putting the line
+"Assistant knowledge cutoff is June 2026" into the system prompt (captured for
+haiku-5-5 only). The line was not captured for the other models, but each names
+exactly its own vendor date (opus-5 2026-05, sonnet-5 2026-01, haiku-4-5
+2025-02), which is consistent with such a line. It is not shown to be the
+cause: no condition without the line was run, the same paragraph names the
+model ("You are powered by the model named Haiku 5.5") and models may be
+trained to state their official date. haiku-4-5 gives its reliable date, Feb
+2025, which training would explain as well. LLMLagBench reports earlier Claude
+models naming dates earlier than the vendor's. CRITERIA knew only about the
+line with today's date; the cutoff line was found afterwards.
+When the model is told that the line "may be wrong" and asked to set it aside
+(self2, 5 answers per model, a leading wording),
 the expectation holds for 5 models of the 6 where the measurement applies: all
 25 answers of opus-5-5, sonnet-5-5, haiku-5-5, fable-5-1 and opus-5 are earlier
 than both the vendor date and the measured cutoff. opus-5-5 and opus-5 both
@@ -120,7 +129,7 @@ not match any vendor date in the table in `PRIOR-WORK.md`.
 **3. haiku-4-5 knows beyond its reliable cutoff (Feb 2025), but not beyond its
 training cutoff (Jul 2025). The first half was not confirmed.** In the primary
 arm haiku-4-5 almost always answers "do not know": its 2024 baseline is 4.3%
-(12/275 correct), so the CRITERIA break rule means nothing for it (point
+as the mean of monthly shares (12/275 = 4.4% pooled), so the CRITERIA break rule means nothing for it (point
 2024-12, bootstrap 2024-04..2025-01). It has to be read from the arm with a
 required estimate (1 repeat, not in CRITERIA):
 
@@ -131,7 +140,11 @@ required estimate (1 repeat, not in CRITERIA):
 | 2025-03..2025-07 | 2/60 = 3.3% | 0.9..11.4% |
 | 2025-08..2026-10 | 5/180 = 2.8% | 1.2..6.3% |
 
-Knowledge holds to 2025-02 and then falls to the level of months the model
+These hits are almost all answers the model does not flag as remembered: it
+says "remember" for 0 to 8% of items per quarter and hits 27% of its "do not
+remember" answers over 2023-01..2025-06. So this is a signal in unflagged
+estimates, not knowledge the model reports. It holds to 2025-02 (24 answers in
+that window, CI 21..57%) and then falls to the level of months the model
 certainly never saw. The window between the reliable and the training cutoff
 is indistinguishable from the period after the training cutoff. The frontier
 says the same: maximum 2025-02, p90 2024-07. The second half of the
@@ -145,9 +158,10 @@ haiku-4-5 is low, so the conclusion reads "no knowledge is visible beyond Feb
 opus-5, 2/394 for sonnet-5, at most 20/392 for haiku-4-5 (5.1%, CI 3.3..7.7%).
 The curve measures knowledge; the primary measure is not replaced. Confidently
 wrong answers on real releases for opus-5-5, sonnet-5-5, fable-5-1 and opus-5
-run from 0 to 1% by quarter; for haiku-5-5 10 to 32% by quarter up to 2025Q4,
-so haiku-5-5 is the only model of the new generation that confidently confuses
-months.
+run from 0 to 4% by quarter and 0 to 1% after 2023Q1; for haiku-5-5 10 to 32%
+by quarter up to 2025Q4, so haiku-5-5 is the only model of the new generation
+that confidently confuses months (in the old generation sonnet-5 reaches 13%
+and haiku-4-5 12% in single quarters of 2023).
 
 **Refutation 3: a smooth decline from 2023 without a break. Did not fire, but
 the break is a slope, not a point.** For opus-5-5, sonnet-5-5, fable-5-1 and
@@ -156,8 +170,15 @@ to 2025Q2 and then falls; haiku-5-5 has a lower plateau (65 to 89%), sonnet-5
 starts declining earlier, from 2025Q1. From the last month where the rolling
 window is at least 90% of the baseline to the first where it is at most 10%
 there are 4 months for sonnet-5-5, 6 for opus-5, 7 for fable-5-1, 8 for
-haiku-5-5 and 9 for opus-5-5 and sonnet-5. The cutoff exists as a band of half
-a year. The point from the CRITERIA rule is the middle of the slope.
+haiku-5-5 and 9 for opus-5-5 and sonnet-5. That window has a floor: a perfect
+step reads as 3 months on it. On the unsmoothed monthly share (floor 1 month)
+the widths are 9 for opus-5-5 and sonnet-5, 7 for fable-5-1, 6 for haiku-5-5,
+4 for sonnet-5-5 and 3 for opus-5 (a tie at exactly 90% in 2025-09; 5 under a
+strict comparison). So for 4 of the 6 models the fall is a slope of 6 to 9
+months and for sonnet-5-5 and opus-5 it is close to a step. The point from the
+CRITERIA rule lies inside the band. TempoMed-Bench reports a gradual decline
+on medical knowledge and LLMLagBench several partial cutoffs for Claude
+Sonnet 4, so the slope itself is not new.
 
 ## What else is visible
 
@@ -175,20 +196,24 @@ a year. The point from the CRITERIA rule is the middle of the slope.
 - **sonnet-5 diverges from the vendor most of all:** stated Jan 2026, measured
   2025-01, frontier median 2025-02. Its curve starts to sag already in 2024
   (2024 baseline 0.719 against 0.941 to 1.000 for opus-5-5, sonnet-5-5,
-  fable-5-1 and opus-5, and 0.812 for haiku-5-5).
+  fable-5-1 and opus-5 and 0.812 for haiku-5-5).
 - The frontier maximum is unreliable: for opus-5 it is 2026-08 with 13
   nonexistent versions of 200, so the table shows p90 rather than the maximum.
 
 ## Limitations
 
-- **The cutoff line in the system prompt.** The CLI on a subscription adds both
-  today's date and the line "Assistant knowledge cutoff is ...". The self report
-  in the working condition therefore measures repetition of the line and self2
-  is 1 wording with 5 repeats. In the primary arm the line is the same for all
+- **The cutoff line in the system prompt.** The CLI on a subscription adds
+  today's date, the model's name and the line "Assistant knowledge cutoff is
+  ...". The flags tried against the date line do not remove it; whether they
+  remove the cutoff line was not tested. The self report in the working
+  condition gives the vendor date, but the line, the model name and training
+  are not separated. self2 is 1 wording with 5 repeats and it is leading: it
+  tells the model the line may be wrong. In the primary arm the line is the same for all
   questions and, judging by false recognition of 0 to 1%, does not push toward
   invention, but its effect on the share of "known" is not measured.
-- **Narrow subject:** months of minor releases of 98 popular packages (50 and
-  50 minus `nestjs` and `airflow`). This is the cutoff for package versions, not
+- **Narrow subject:** months of minor releases of 93 popular packages (98
+  entries are eligible; `nestjs` and `airflow` are placeholders with no stable
+  release in the window and supply only 4 nonexistent controls). This is the cutoff for package versions, not
   for knowledge in general. Popular packages are probably better represented in
   training data than average.
 - **Batches of 20.** Neighbouring versions of 1 package in a batch can suggest
@@ -199,7 +224,14 @@ a year. The point from the CRITERIA rule is the middle of the slope.
   releases per month per model per repeat, 24 answers per cell.
 - The self phase was taken at 130 of 210, 13 to 22 answers per model.
 - For haiku-4-5 the break rule does not apply because of the 4.3% baseline;
-  the verdict on it rests on an arm that was not in CRITERIA.
+  the verdict on it rests on an arm that was not in CRITERIA, on answers the
+  model does not flag as remembered.
+- The bootstrap, Wilson intervals, frontier p90, monthly slices and the width
+  of the decline are not in CRITERIA; they were chosen after the data came in.
+- The registration has no third party timestamp: its order before the first
+  call rests on local git dates.
+- The search before the run did not reach arXiv (throttled) and missed
+  LLMLagBench, HindsightBench and TempoMed-Bench.
 - Subscription through the CLI, not the API: temperature and other parameters
   are not under control. Cost by the CLI journal is $36.96 for 1075 calls
   (nominal, on a subscription).
@@ -209,18 +241,31 @@ a year. The point from the CRITERIA rule is the middle of the slope.
 Others first (`PRIOR-WORK.md`). The gap between effective and stated cutoff
 was shown in **Dated Data** (Cheng et al., 2024,
 [arXiv:2403.12958](https://arxiv.org/abs/2403.12958)) on open models via
-perplexity; in **Beyond the Reported Cutoff**
-([arXiv:2504.00042](https://arxiv.org/abs/2504.00042)) as a black box on
+perplexity. **LLMLagBench** (Pęzik et al., 2025,
+[arXiv:2511.12116](https://arxiv.org/abs/2511.12116)) put developer date, self
+reported date and a measured boundary side by side for 35 models from news
+events. **HindsightBench** (Jia, 2026,
+[arXiv:2607.18867](https://arxiv.org/abs/2607.18867)) found black box effective
+cutoffs up to 8 months before vendor dates across 15 models, Claude Sonnet 5
+(2025-10) and Claude Haiku 4.5 (2024-10) among them. **Beyond the Reported
+Cutoff** ([arXiv:2504.00042](https://arxiv.org/abs/2504.00042)) did it on
 financial facts at yearly resolution; a monthly curve on celebrity deaths for 1
-model is in **mattm/llm-knowledge-cutoff** (2023).
+model is in **mattm/llm-knowledge-cutoff** (2023). TempoMed-Bench
+([arXiv:2605.13045](https://arxiv.org/abs/2605.13045)) found a gradual decline
+rather than a sharp edge.
 
-Ours on top of that: Anthropic's closed models without logits, a subject a
-programmer needs every day (npm and PyPI package versions), monthly resolution,
-4 numbers side by side (vendor, curve, frontier, self report) and 2 generations
-from 1 lab on 1 battery. Searched Semantic Scholar, DuckDuckGo and GitHub (the
-queries are in `PRIOR-WORK.md`) and did not find this combination. Separately
-ours: inside Claude Code the model states its cutoff on the client's word. When
-that hint is removed, the 5 and 5.5 models other than sonnet-5 name a month 3
-to 10 months earlier than their own knowledge curve (25 answers of 25 earlier;
-the Russian original said "half a year or more", which holds for 22 of those 25
-answers, so the range is given here instead).
+LLMLagBench, HindsightBench and TempoMed-Bench were found at review, after the
+counting. The search before the run (Semantic Scholar, DuckDuckGo, GitHub; the
+arXiv API was throttled) missed them, so the novelty claim written then was
+too wide. What is left as ours: the Claude 5.5 generation, which none of them
+covers, with the previous generation of the same lab on the same battery
+(opus-5-5 does not know further than opus-5); npm and PyPI package versions
+dated by the registries, at monthly resolution; a control of 200 nonexistent
+versions in the same batches (false recognition 0 to 5%); and the self report
+as the Claude Code CLI delivers it. There the 5.5 generation gives the vendor
+date in 63 of 70 answers, consistent with the CLI's cutoff line, where
+LLMLagBench saw earlier Claude models name earlier dates. Told that the line
+may be wrong, the 5.5 models and opus-5 name a month 3 to 10 months earlier
+than their own knowledge curve (25 answers of 25; the wording is leading).
+On sonnet-5 HindsightBench and this study disagree by 4 to 9 months, which
+fits the Dated Data point that the effective cutoff depends on the subject.

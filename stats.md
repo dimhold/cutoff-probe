@@ -247,6 +247,24 @@ Last month where the window is at least 90% of the 2024 baseline, and the first 
 | claude-sonnet-5 | 0.719 | 2024-11 | 2025-08 | 9 |
 | claude-haiku-4-5 | 0.043 | 2024-11 | 2025-02 | 3 |
 
+A perfect step (all correct through month m, none after) reads as 3 months on the 3 month window: 1 at m-1, 2/3 at m, 1/3 at m+1, 0 at m+2. That is the floor of the table above.
+
+## Width of the decline, unsmoothed monthly shares
+
+The same thresholds on the monthly share itself, compared exactly (fractions, no rounding). The floor for a perfect step is 1 month.
+
+| model | last >= 90% | first <= 10% | months |
+|---|---|---|---|
+| claude-opus-5-5 | 2025-05 | 2026-02 | 9 |
+| claude-sonnet-5-5 | 2025-11 | 2026-03 | 4 |
+| claude-haiku-5-5 | 2025-06 | 2025-12 | 6 |
+| claude-fable-5-1 | 2025-07 | 2026-02 | 7 |
+| claude-opus-5 | 2025-09 | 2025-12 | 3 |
+| claude-sonnet-5 | 2024-11 | 2025-08 | 9 |
+| claude-haiku-4-5 | 2024-12 | 2025-01 | 1 |
+
+claude-opus-5 sits on a tie: 21/24 in 2025-09 equals 90% of its 2024 baseline of 35/36 exactly. In floating point the same comparison fails and the width reads 5 (2025-07..2025-12).
+
 ## haiku-4-5 monthly 2024-07..2025-09
 
 | month | abstention: known | abstention: correct | answers | estimate: hit | answers |
@@ -335,6 +353,14 @@ Last month where the window is at least 90% of the 2024 baseline, and the first 
 | claude-opus-5 | 5 | 2025-01 x5 |
 | claude-sonnet-5 | 5 | 2025-02 x3, 2025-04 x2 |
 | claude-haiku-4-5 | 5 | 2024-04 x3, 2025-02 x2 |
+
+## Estimate arm: most frequent estimates of claude-opus-5-5 on releases from 2026-07..2026-10
+
+48 answers: 2026-08 x15, 2026-07 x5, 2026-10 x4, 2027-01 x4
+
+## Answering model
+
+Successful rows whose modelUsage has the requested model as its only key: 1075 of 1075.
 
 ## Journal
 

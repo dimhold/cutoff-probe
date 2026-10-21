@@ -9,6 +9,7 @@ no model calls. Seeded, so the output is identical on every run.
 Usage:  python intervals.py > stats-part2.md
 """
 import os, sys, json, io, random, math
+from fractions import Fraction
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import analyze as A
@@ -174,6 +175,41 @@ for m in M:
         months[lo_i] if lo_i is not None else '-',
         (lo_i - hi_i) if (hi_i is not None and lo_i is not None) else '-'))
 print()
+print('A perfect step (all correct through month m, none after) reads as 3 '
+      'months on the 3 month window: 1 at m-1, 2/3 at m, 1/3 at m+1, 0 at m+2. '
+      'That is the floor of the table above.')
+print()
+print('## Width of the decline, unsmoothed monthly shares')
+print()
+print('The same thresholds on the monthly share itself, compared exactly '
+      '(fractions, no rounding). The floor for a perfect step is 1 month.')
+print()
+print('| model | last >= 90% | first <= 10% | months |')
+print('|---|---|---|---|')
+for m in M:
+    L = [[o for _, o in obs[(m, mo)]] for mo in months]
+    fr = [Fraction(sum(1 for o in x if o == 'correct'), len(x)) if x else None
+          for x in L]
+    fb = [x for mo, x in zip(months, fr) if mo.startswith('2024') and x is not None]
+    b = sum(fb) / len(fb) if fb else 0
+    his = [i for i, x in enumerate(fr) if x is not None and b and
+           x >= Fraction(9, 10) * b]
+    hi_i = max(his) if his else None
+    lo_i = None
+    if hi_i is not None:
+        for i in range(hi_i + 1, len(fr)):
+            if fr[i] is not None and fr[i] <= Fraction(1, 10) * b:
+                lo_i = i
+                break
+    print('| %s | %s | %s | %s |' % (
+        m, months[hi_i] if hi_i is not None else '-',
+        months[lo_i] if lo_i is not None else '-',
+        (lo_i - hi_i) if (hi_i is not None and lo_i is not None) else '-'))
+print()
+print('claude-opus-5 sits on a tie: 21/24 in 2025-09 equals 90% of its 2024 '
+      'baseline of 35/36 exactly. In floating point the same comparison fails '
+      'and the width reads 5 (2025-07..2025-12).')
+print()
 g = defaultdict(list)
 for r in rows:
     if r.get('kind') != 'guess' or not r.get('ok'):
@@ -283,6 +319,32 @@ for kind, title in (('self', 'Self report, 6 wordings (phase self, 130 of 210 ta
         print('| %s | %d | %s |' % (m, sum(d.values()), ', '.join(
             '%s x%d' % kv for kv in sorted(d.items(), key=lambda kv: -kv[1]))))
     print()
+print('## Estimate arm: most frequent estimates of claude-opus-5-5 on releases from 2026-07..2026-10')
+print()
+ests = Counter()
+for r in rows:
+    if r.get('kind') != 'guess' or not r.get('ok') or r['model'] != 'claude-opus-5-5':
+        continue
+    arr, byn = parse(r)
+    if arr is None:
+        continue
+    for n, iid in enumerate(r['items'], 1):
+        o = byn.get(n)
+        it = items[iid]
+        if o is None or not it['real'] or not ('2026-07' <= it['month'] <= '2026-10'):
+            continue
+        mm = A.MON.search(str(o.get('month') or ''))
+        ests[mm.group(0) if mm else None] += 1
+print('%d answers: ' % sum(ests.values()) +
+      ', '.join('%s x%d' % kv for kv in ests.most_common(4)))
+print()
+okrows = [r for r in rows if r.get('ok')]
+same = sum(1 for r in okrows if list((r.get('modelUsage') or {}).keys()) == [r['model']])
+print('## Answering model')
+print()
+print('Successful rows whose modelUsage has the requested model as its only key: '
+      '%d of %d.' % (same, len(okrows)))
+print()
 ok = Counter()
 bad = Counter()
 for r in rows:

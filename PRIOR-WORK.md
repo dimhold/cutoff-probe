@@ -71,3 +71,67 @@ The framing is therefore **not "we discovered that the cutoff is wrong"**
 (that is Dated Data, 2024), but a check of their conclusion on closed models
 without logits, on a subject a programmer depends on every day: which package
 versions the model knows.
+
+## Added at review on 2026-10-21, after the counting
+
+Everything above was written before the first call and is left as it was.
+This section was added after the results were counted, when a reviewer
+pointed to studies the search above had missed. Each was checked on
+arxiv.org/abs over https (the export API answered HTTP 429 that day, including
+for arXiv:2403.12958, which exists). A search over arxiv.org/search on the same
+day ("knowledge cutoff", "effective cutoff", "training cutoff" benchmark,
+"cutoff date" language models, knowledge cutoff package versions) found
+nothing closer. The arXiv API had been throttled on 2026-10-19 after 5
+requests, so arXiv was in effect not searched before the run.
+
+**The black box niche is taken too.**
+
+- **LLMLagBench: Identifying Temporal Training Boundaries in Large Language
+  Models** (Pęzik et al., 2025,
+  [arXiv:2511.12116](https://arxiv.org/abs/2511.12116)). A freshness
+  benchmark from questions about news events, with changepoint detection, on
+  35 models. Its Table 3 gives for each model the cutoff according to the
+  developer, according to the model itself and according to the benchmark:
+  the same 3 numbers as here. The Claude rows are Claude 3 Haiku, Claude 3
+  Opus, Claude 3.5 Sonnet and Claude Sonnet 4. For Claude Sonnet 4 it finds 2
+  changepoints (2023-02 and 2024-12) against a provider date of 2025-01 and a
+  self reported 2024-04. For all 4 Claude models the self reported date is
+  earlier than the provider's.
+- **HindsightBench: A Black-Box Behavioral Audit Protocol for Parametric
+  Hindsight in Time-Indexed LLM Decision Tasks** (Jia, 2026,
+  [arXiv:2607.18867](https://arxiv.org/abs/2607.18867)). Preregistered, no
+  logprobs, a macroeconomic panel, 15 models from 7 vendors. Its behaviorally
+  effective cutoff is the last month with outcome recall above 0.1. Effective
+  cutoffs span 22 months and come up to 8 months before vendor dates. 2 models
+  overlap with this panel: Claude Sonnet 5 measured 2025-10 (here: 2025-01 by
+  the registered rule, last month above 10% correct 2025-06) and Claude Haiku
+  4.5 measured 2024-10 (here: rule not applicable, estimate arm hits up to
+  2025-02).
+- **Large Language Models Lack Temporal Awareness of Medical Knowledge**
+  (TempoMed-Bench, Guan et al., 2026,
+  [arXiv:2605.13045](https://arxiv.org/abs/2605.13045)). On medical guidelines
+  the accuracy falls as a gradual linear decline rather than a sharp edge at
+  the cutoff. That comes before the slope finding here.
+- **Set the Clock: Temporal Alignment of Pretrained Language Models** (Zhao
+  et al., 2024, [arXiv:2402.16797](https://arxiv.org/abs/2402.16797)).
+  Pretrained models mostly answer from knowledge older than their pretraining
+  cutoff. It was among the Semantic Scholar responses in `prior/s2.json` and
+  was not read at the time.
+- **LibEvoBench: Probing Temporal Knowledge Stratification in Code Generation
+  Models** (Cipollone et al., 2026,
+  [arXiv:2606.25402](https://arxiv.org/abs/2606.25402)). Whether models keep
+  the APIs of several versions of Python libraries apart. A neighbouring niche,
+  not the date.
+- **CutoffBench** (Spohn, 2025), cited by HindsightBench as a deployed cutoff
+  estimator at cutoffbench.com. On 2026-10-21 that domain was for sale and no
+  repository was found, so it could not be checked.
+
+**What is left after them.** Not "3 numbers side by side" (LLMLagBench has
+them) and not "black box effective cutoff before the vendor date" (LLMLagBench
+and HindsightBench). Left: the Claude 5.5 generation, which none of them
+covers, with the previous generation of the same lab on the same battery;
+package releases dated by the registries at monthly resolution; a control of
+200 nonexistent versions in the same batches; and the self report as the
+Claude Code CLI delivers it, with a cutoff line in its system prompt. There
+the 5.5 generation gives the vendor date in 63 of 70 answers, where
+LLMLagBench saw earlier Claude models name dates earlier than the vendor's.
