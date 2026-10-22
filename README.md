@@ -1,5 +1,7 @@
 # Where does a model's knowledge of package releases actually stop?
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23544586.svg)](https://doi.org/10.5281/zenodo.23544586)
+
 Every Claude model ships with a stated knowledge cutoff. This repository checks
 that date against fact: 552 releases from the npm and PyPI registries, 12 per
 month from 2023-01 to 2026-10, each with a publication time taken from the
@@ -194,6 +196,6 @@ Timestamps in the journal and the logs are local machine time, GMT+3.
 
 ## Licence and citation
 
-Code under MIT, data and text under CC BY 4.0, with third party registry
-metadata and vendor pages excepted: [LICENSE](LICENSE). How to cite:
+Code, data and text under MIT, with third party registry metadata and vendor
+pages excepted: [LICENSE](LICENSE). How to cite:
 [CITATION.cff](CITATION.cff).

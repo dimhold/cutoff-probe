@@ -1,11 +1,5 @@
-This repository is licensed in two parts.
-
-1. Code (*.py) is licensed under the MIT License below.
-2. Data and text (battery.json, data/releases.json, out/, context-check.json,
-   stats.md, RESULTS.md, CRITERIA.md, PRIOR-WORK.md, README.md) are licensed
-   under the Creative Commons Attribution 4.0 International License (CC BY 4.0),
-   https://creativecommons.org/licenses/by/4.0/legalcode, with the third party
-   exceptions listed at the end of this file.
+This repository, code and data alike, is licensed under the MIT License
+below, with the third party exceptions listed at the end of this file.
 
 -------------------------------------------------------------------------------
 
@@ -33,13 +27,7 @@ SOFTWARE.
 
 -------------------------------------------------------------------------------
 
-Data: CC BY 4.0
-
-Copyright (c) 2026 Dmitriy Semenkevich. You may share and adapt the data and
-text for any purpose, provided you give appropriate credit (see CITATION.cff),
-link to the licence and indicate if changes were made.
-
-Third party material, not covered by the licences above:
+Third party material, not covered by the licence above:
 
 - Package names, version numbers and publication times in battery.json and
   data/releases.json are facts taken from the public npm registry

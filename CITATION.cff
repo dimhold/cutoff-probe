@@ -6,8 +6,9 @@ authors:
   - family-names: Semenkevich
     given-names: Dmitriy
     orcid: "https://orcid.org/0009-0009-3013-4978"
-version: "1.0.0"
-date-released: "2026-10-21"
+version: "1.0.1"
+doi: "10.5281/zenodo.23544586"
+date-released: "2026-10-22"
 license: MIT
 repository-code: "https://github.com/dimhold/cutoff-probe"
 abstract: "Knowledge cutoff of 7 Claude models measured by fact on 552 dated npm and PyPI releases, against the vendor date and the model's own report. Prior black box work (LLMLagBench, HindsightBench) found effective cutoffs before vendor dates on other panels; this adds the Claude 5.5 generation, package releases at monthly resolution and the self report inside the Claude Code CLI. For the 4 models stated as Jun 2026 the last month at or above half of the 2024 level is 2025-09 to 2025-12, 6 to 9 months early. Inside the CLI they give the stated date in 63 of 70 answers (118 of 130 for all 7 models), consistent with a cutoff line the client puts into the system prompt; no condition without the line was run. False recognition of nonexistent versions is 0 to 5%."
